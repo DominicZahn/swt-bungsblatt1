@@ -17,4 +17,7 @@
 <url>http://bob.ipd.kit.edu/nexus/repository/maven-public-all/</url>
 </repository>
 </repositories>
+  <modules>
+  	<module>jmjrst.main</module>
+  </modules>
 </project>
