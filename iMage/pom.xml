@@ -5,7 +5,7 @@
     <artifactId>uebungsparent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <groupId>swt1.ub1.a1</groupId>
+  <groupId>swt1</groupId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>iMage</name>
@@ -19,5 +19,5 @@
   <modules>
   	<module>jmjrst.main</module>
   </modules>
-  <artifactId>2218968</artifactId>
+  <artifactId>iMage</artifactId>
 </project>
