@@ -193,8 +193,7 @@ public class Main extends JFrame {
     }
   }
 
-  public static void main(String[] args)
-  {
+  public static void main(String[] args) {
     if (args.length == 0) new Main();
     else
     {
