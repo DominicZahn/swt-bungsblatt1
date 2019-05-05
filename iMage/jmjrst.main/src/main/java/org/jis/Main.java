@@ -187,8 +187,7 @@ public class Main extends JFrame {
     setVisible(true);
 
     // after the first start of the Application open the Options Dialog
-    if (o.isInitial())
-    {
+    if (o.isInitial()) {
       openOptions();
       o.setInitial(false);
     }
