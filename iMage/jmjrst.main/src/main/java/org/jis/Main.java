@@ -177,8 +177,7 @@ public class Main extends JFrame {
     jsplit.setOneTouchExpandable(true);
     jsplit.setResizeWeight(0.7D);
 
-    if(o.isTextbox())
-    {
+    if (o.isTextbox()) {
       c.add(jsplit, BorderLayout.CENTER);
     }
     else
