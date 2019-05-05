@@ -179,9 +179,7 @@ public class Main extends JFrame {
 
     if (o.isTextbox()) {
       c.add(jsplit, BorderLayout.CENTER);
-    }
-    else
-    {
+    } else {
       c.add(oben, BorderLayout.CENTER);
     }
     c.add(status, BorderLayout.SOUTH);
