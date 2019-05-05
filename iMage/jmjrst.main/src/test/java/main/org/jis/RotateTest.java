@@ -1,13 +1,13 @@
 package main.org.jis;
 
-import org.jis.generator.Generator;
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.assertEquals;
 
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 
 import javax.imageio.ImageIO;
+import org.jis.generator.Generator;
 
 import org.junit.After;
 import org.junit.AfterClass;
@@ -19,11 +19,11 @@ public class RotateTest {
   private Generator generator;
   private BufferedImage bufferedImage;
   private final String imagePath = "src/test/resources/image.jpg";
-  
+
   /**
-   * creates a new generator object and reads the bufferedImage
+   * Creates a new generator object and reads the bufferedImage.
    */
-  @BeforeClass
+  @Before
   public void setUp() {
     generator = new Generator(null, 0);
     try {
@@ -32,4 +32,21 @@ public class RotateTest {
       e.printStackTrace();
     }
   }
+
+  /**
+   * JUnit test that tests rotateImage with the inputs null and 0.0.
+   */
+  @Test
+  public void rotateImageNullRotation0() {
+    assertEquals(null, generator.rotateImage(null, 0.0));
+  }
+
+  /**
+   * JUnit test that tests rotateImage with the inputs null and 0.0.
+   */
+  @Test
+  public void rotateImageBufferedImageRotation0() {
+    assertEquals(bufferedImage, generator.rotateImage(bufferedImage, 0.0));
+  }
+
 }
