@@ -42,11 +42,18 @@ public class RotateTest {
   }
 
   /**
-   * JUnit test that tests rotateImage with the inputs null and 0.0.
+   * JUnit test that tests rotateImage with the inputs bufferedImage and 0.0.
    */
   @Test
   public void rotateImageBufferedImageRotation0() {
     assertEquals(bufferedImage, generator.rotateImage(bufferedImage, 0.0));
   }
-
+  
+  /**
+   * JUnit test that tests rotateImage with the inputs bufferedImage and 0.42
+   */
+  @Test(expected = IllegalArgumentException.class)
+  public void rotateImageBufferedImageRotation042() {
+    generator.rotateImage(bufferedImage, 0.42);
+  }
 }
