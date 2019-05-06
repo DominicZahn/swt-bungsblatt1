@@ -60,7 +60,7 @@ public class RotateTest {
   }
   
   /**
-   * JUnit test that checks if the picture is still the same after the rotation (90°)
+   * JUnit test that checks if the picture is still the same after the rotation (90°).
    */
   @Test
   public void rotateImageRotationRight90() {
@@ -74,6 +74,27 @@ public class RotateTest {
         for (int y = 0; y < bufferedImage.getHeight(); y++) {
           int rotatedX = rotatedImage.getWidth() - y - 1;
           int rotatedY = x;
+          assertEquals(bufferedImage.getRGB(x, y), rotatedImage.getRGB(rotatedX, rotatedY));
+        }
+      }
+    }
+  }
+  
+  /**
+   * JUnit test that checks if the picture is still the same after the rotation (90°).
+   */
+  @Test
+  public void rotateImageRotationRight270() {
+    BufferedImage rotatedImage = generator.rotateImage(bufferedImage, Math.toRadians(270));
+    boolean widthBool = bufferedImage.getWidth() == rotatedImage.getHeight();
+    boolean heightBool = bufferedImage.getHeight() == rotatedImage.getWidth();
+    assertTrue(widthBool);
+    assertTrue(heightBool);
+    if (heightBool && widthBool) {
+      for (int x = 0; x < bufferedImage.getWidth(); x++) {
+        for (int y = 0; y < bufferedImage.getHeight(); y++) {
+          int rotatedX = y;
+          int rotatedY = rotatedImage.getHeight() - x - 1;
           assertEquals(bufferedImage.getRGB(x, y), rotatedImage.getRGB(rotatedX, rotatedY));
         }
       }
