@@ -111,4 +111,14 @@ public class RotateTest {
     assertEquals(rotatedImageNegativ, rotatedImagePositiv);
   }
   
+  /**
+   * JUnit test that checks if -270° generates the same picture as 90°.
+   */
+  @Test
+  public void rotateImageNegativ270() {
+    BufferedImage rotatedImageNegativ = generator.rotateImage(bufferedImage, Math.toRadians(-270));
+    BufferedImage rotatedImagePositiv = generator.rotateImage(bufferedImage, Math.toRadians(90));
+    assertEquals(rotatedImageNegativ, rotatedImagePositiv);
+  }
+  
 }
