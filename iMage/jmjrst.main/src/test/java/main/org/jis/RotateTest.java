@@ -7,6 +7,8 @@ import static org.junit.Assert.assertTrue;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 import javax.imageio.ImageIO;
 import org.jis.generator.Generator;
@@ -21,6 +23,8 @@ public class RotateTest {
   private Generator generator;
   private BufferedImage bufferedImage;
   private final String imagePath = "src/test/resources/image.jpg";
+  private File imageFile;
+  private BufferedImage finalRotatedImage;
 
   /**
    * Creates a new generator object and reads the bufferedImage.
@@ -28,8 +32,9 @@ public class RotateTest {
   @Before
   public void setUp() {
     generator = new Generator(null, 0);
+    imageFile = new File(imagePath);
     try {
-      bufferedImage = ImageIO.read(new File(imagePath));
+      bufferedImage = ImageIO.read(imageFile);
     } catch (IOException e) {
       e.printStackTrace();
     }
@@ -40,7 +45,8 @@ public class RotateTest {
    */
   @Test
   public void rotateImageNull0() {
-    assertEquals(null, generator.rotateImage(null, 0.0));
+    finalRotatedImage = generator.rotateImage(null, 0.0);
+    assertEquals(null, finalRotatedImage);
   }
 
   /**
@@ -48,7 +54,8 @@ public class RotateTest {
    */
   @Test
   public void rotateImageBufferedImage0() {
-    assertEquals(bufferedImage, generator.rotateImage(bufferedImage, 0.0));
+    finalRotatedImage = generator.rotateImage(bufferedImage, 0.0);
+    assertEquals(bufferedImage, finalRotatedImage);
   }
   
   /**
@@ -56,7 +63,7 @@ public class RotateTest {
    */
   @Test(expected = IllegalArgumentException.class)
   public void rotateImageExceptionRotation042() {
-    generator.rotateImage(bufferedImage, 0.42);
+    finalRotatedImage = generator.rotateImage(bufferedImage, 0.42);
   }
   
   /**
@@ -78,6 +85,7 @@ public class RotateTest {
         }
       }
     }
+    finalRotatedImage = rotatedImage;
   }
   
   /**
@@ -99,6 +107,7 @@ public class RotateTest {
         }
       }
     }
+    finalRotatedImage = rotatedImage;
   }
   
   /**
@@ -112,6 +121,7 @@ public class RotateTest {
     assertEquals(rotatedImageNegativ.getHeight(), bufferedImage.getWidth());
     assertEquals(rotatedImageNegativ.getWidth(), bufferedImage.getHeight());
     assertTrue(bufferedImageEquals(rotatedImageNegativ, rotatedImagePositiv));
+    finalRotatedImage = rotatedImageNegativ;
   }
   
   /**
@@ -125,6 +135,27 @@ public class RotateTest {
     assertEquals(rotatedImageNegativ.getHeight(), bufferedImage.getWidth());
     assertEquals(rotatedImageNegativ.getWidth(), bufferedImage.getHeight());
     assertTrue(bufferedImageEquals(rotatedImageNegativ, rotatedImagePositiv));
+    finalRotatedImage = rotatedImageNegativ;
+  }
+  
+  /**
+   * saves the rotated file.
+   */
+  @After
+  public void tearDown() {
+    if (finalRotatedImage != null) {
+      SimpleDateFormat format = new SimpleDateFormat("MM-dd_HH.mm.ss.SSS");
+      String dateString = format.format(new Date());
+      String name = imageFile.getName().replaceFirst("[.][^.]+$", "");
+      String fileName = name + "_rotated_" + dateString + ".jpg";
+      File file  = new File(".\\target/test\\" + fileName);
+      try {
+        ImageIO.write(finalRotatedImage, "jpg", file);
+      } catch (IOException e) {
+        System.out.println(e.getMessage());
+      }
+      finalRotatedImage = null;
+    }
   }
   
   private boolean bufferedImageEquals(BufferedImage image1, BufferedImage image2) {
