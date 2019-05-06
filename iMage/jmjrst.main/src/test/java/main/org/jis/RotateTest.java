@@ -1,6 +1,8 @@
 package main.org.jis;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -53,7 +55,26 @@ public class RotateTest {
    * JUnit test that tests rotateImage with the inputs bufferedImage and 0.42
    */
   @Test(expected = IllegalArgumentException.class)
-  public void rotateImageBufferedImageRotation042() {
+  public void rotateImageExceptionRotation042() {
     generator.rotateImage(bufferedImage, 0.42);
   }
+  
+  @Test
+  public void rotateImageRotationRight90() {
+    BufferedImage rotatedImage = generator.rotateImage(bufferedImage, Math.toRadians(90));
+    boolean widthBool = bufferedImage.getWidth() == rotatedImage.getHeight();
+    boolean heightBool = bufferedImage.getHeight() == rotatedImage.getWidth();
+    assertTrue(widthBool);
+    assertTrue(heightBool);
+    if (heightBool && widthBool) {
+      for (int x = 0; x < bufferedImage.getWidth(); x++) {
+        for (int y = 0; y < bufferedImage.getHeight(); y++) {
+          int rotatedX = rotatedImage.getWidth() - y - 1;
+          int rotatedY = x;
+          assertEquals(bufferedImage.getRGB(x, y), rotatedImage.getRGB(rotatedX, rotatedY));
+        }
+      }
+    }
+  }
+  
 }
