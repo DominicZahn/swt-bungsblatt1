@@ -59,6 +59,9 @@ public class RotateTest {
     generator.rotateImage(bufferedImage, 0.42);
   }
   
+  /**
+   * JUnit test that checks if the picture is still the same after the rotation (90°)
+   */
   @Test
   public void rotateImageRotationRight90() {
     BufferedImage rotatedImage = generator.rotateImage(bufferedImage, Math.toRadians(90));
