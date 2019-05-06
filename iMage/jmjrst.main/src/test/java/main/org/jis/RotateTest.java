@@ -109,7 +109,8 @@ public class RotateTest {
     System.out.println("negativ 90");
     BufferedImage rotatedImageNegativ = generator.rotateImage(bufferedImage, Math.toRadians(-90));
     BufferedImage rotatedImagePositiv = generator.rotateImage(bufferedImage, Math.toRadians(270));
-    
+    assertEquals(rotatedImageNegativ.getHeight(), bufferedImage.getWidth());
+    assertEquals(rotatedImageNegativ.getWidth(), bufferedImage.getHeight());
     assertTrue(bufferedImageEquals(rotatedImageNegativ, rotatedImagePositiv));
   }
   
@@ -121,7 +122,9 @@ public class RotateTest {
     System.out.println("negativ 270");
     BufferedImage rotatedImageNegativ = generator.rotateImage(bufferedImage, Math.toRadians(-270));
     BufferedImage rotatedImagePositiv = generator.rotateImage(bufferedImage, Math.toRadians(90));
-    assertEquals(rotatedImageNegativ, rotatedImagePositiv);
+    assertEquals(rotatedImageNegativ.getHeight(), bufferedImage.getWidth());
+    assertEquals(rotatedImageNegativ.getWidth(), bufferedImage.getHeight());
+    assertTrue(bufferedImageEquals(rotatedImageNegativ, rotatedImagePositiv));
   }
   
   private boolean bufferedImageEquals(BufferedImage image1, BufferedImage image2) {
