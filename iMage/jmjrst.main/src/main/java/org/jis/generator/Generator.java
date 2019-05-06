@@ -723,27 +723,24 @@ public class Generator {
 
     AffineTransform transform = new AffineTransform();
 
-    // get width and height of the origianl image
+    // get width and height of the original image
     int width = image.getWidth(null);
     int height = image.getHeight(null);
-
-    if (rotate == Generator.ROTATE_90)
-    {
+    
+    if (rotate == Generator.ROTATE_90 || rotate == -Generator.ROTATE_270) {
+      System.out.println("90");
       transform.translate(height, 0);
       transform.rotate(Generator.ROTATE_90);
       width = image.getHeight(); // swap
       height = image.getWidth();
-    }
-    else if (rotate == Generator.ROTATE_270)
-    {
+    } else if (rotate == Generator.ROTATE_270 || rotate == -Generator.ROTATE_90) {
+      System.out.println("270");
       transform.translate(0, width);
       transform.rotate(Generator.ROTATE_270);
       width = image.getHeight(null); // swap
       height = image.getWidth(null);
-    }
-    else
-    {
-      throw new IllegalArgumentException("degree must be a mutiple of 90°!");
+    } else {
+      throw new IllegalArgumentException("degree must be a mutiple of 90ï¿½!");
     }
 
     // Return a new Image

@@ -106,9 +106,11 @@ public class RotateTest {
    */
   @Test
   public void rotateImageNegativ90() {
+    System.out.println("negativ 90");
     BufferedImage rotatedImageNegativ = generator.rotateImage(bufferedImage, Math.toRadians(-90));
     BufferedImage rotatedImagePositiv = generator.rotateImage(bufferedImage, Math.toRadians(270));
-    assertEquals(rotatedImageNegativ, rotatedImagePositiv);
+    
+    assertTrue(bufferedImageEquals(rotatedImageNegativ, rotatedImagePositiv));
   }
   
   /**
@@ -116,9 +118,29 @@ public class RotateTest {
    */
   @Test
   public void rotateImageNegativ270() {
+    System.out.println("negativ 270");
     BufferedImage rotatedImageNegativ = generator.rotateImage(bufferedImage, Math.toRadians(-270));
     BufferedImage rotatedImagePositiv = generator.rotateImage(bufferedImage, Math.toRadians(90));
     assertEquals(rotatedImageNegativ, rotatedImagePositiv);
+  }
+  
+  private boolean bufferedImageEquals(BufferedImage image1, BufferedImage image2) {
+    if (image1.getHeight() != image2.getHeight()) {
+      return false;
+    }
+    if (image1.getWidth() != image2.getWidth()) {
+      return false;
+    }
+    for (int x = 0; x < image1.getWidth(); x++) {
+      for (int y = 0; y < image2.getHeight(); y++) {
+        int rgb1 = image1.getRGB(x, y);
+        int rgb2 = image2.getRGB(x, y);
+        if (rgb1 != rgb2) {
+          return false;
+        }
+      }
+    }
+    return true;
   }
   
 }
