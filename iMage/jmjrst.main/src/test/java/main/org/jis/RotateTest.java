@@ -39,7 +39,7 @@ public class RotateTest {
    * JUnit test that tests rotateImage with the inputs null and 0.0.
    */
   @Test
-  public void rotateImageNullRotation0() {
+  public void rotateImageNull0() {
     assertEquals(null, generator.rotateImage(null, 0.0));
   }
 
@@ -47,7 +47,7 @@ public class RotateTest {
    * JUnit test that tests rotateImage with the inputs bufferedImage and 0.0.
    */
   @Test
-  public void rotateImageBufferedImageRotation0() {
+  public void rotateImageBufferedImage0() {
     assertEquals(bufferedImage, generator.rotateImage(bufferedImage, 0.0));
   }
   
@@ -63,7 +63,7 @@ public class RotateTest {
    * JUnit test that checks if the picture is still the same after the rotation (90°).
    */
   @Test
-  public void rotateImageRotationRight90() {
+  public void rotateImage90() {
     BufferedImage rotatedImage = generator.rotateImage(bufferedImage, Math.toRadians(90));
     boolean widthBool = bufferedImage.getWidth() == rotatedImage.getHeight();
     boolean heightBool = bufferedImage.getHeight() == rotatedImage.getWidth();
@@ -84,7 +84,7 @@ public class RotateTest {
    * JUnit test that checks if the picture is still the same after the rotation (90°).
    */
   @Test
-  public void rotateImageRotationRight270() {
+  public void rotateImage270() {
     BufferedImage rotatedImage = generator.rotateImage(bufferedImage, Math.toRadians(270));
     boolean widthBool = bufferedImage.getWidth() == rotatedImage.getHeight();
     boolean heightBool = bufferedImage.getHeight() == rotatedImage.getWidth();
