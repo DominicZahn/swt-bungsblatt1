@@ -45,4 +45,5 @@ target/
 __MACOSX/
 
 # Windows
-Thumbs.db
+Thumbs.db*
+iMage/.idea/
