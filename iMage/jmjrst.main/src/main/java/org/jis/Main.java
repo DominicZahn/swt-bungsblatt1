@@ -177,9 +177,12 @@ public class Main extends JFrame {
     jsplit.setOneTouchExpandable(true);
     jsplit.setResizeWeight(0.7D);
 
-    if (o.isTextbox()) {
+    if(o.isTextbox())
+    {
       c.add(jsplit, BorderLayout.CENTER);
-    } else {
+    }
+    else
+    {
       c.add(oben, BorderLayout.CENTER);
     }
     c.add(status, BorderLayout.SOUTH);
@@ -187,7 +190,8 @@ public class Main extends JFrame {
     setVisible(true);
 
     // after the first start of the Application open the Options Dialog
-    if (o.isInitial()) {
+    if (o.isInitial())
+    {
       openOptions();
       o.setInitial(false);
     }
