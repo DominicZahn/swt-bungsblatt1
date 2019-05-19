@@ -22,6 +22,9 @@ repo/
 # # Excel Backup File
 *.xlk
 
+# Visual Studio Code
+.json
+
 # Eclipse
 .metadata/
 .recommenders/
@@ -47,3 +50,4 @@ __MACOSX/
 # Windows
 Thumbs.db*
 iMage/.idea/
+.vscode/launch.json
