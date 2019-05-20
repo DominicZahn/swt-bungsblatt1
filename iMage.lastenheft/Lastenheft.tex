@@ -29,6 +29,20 @@
     HDR ist eine Abkürzung für High Dynamic Range.}
 }
 
+\newglossaryentry{Systemspeicher}
+{
+    name=Systemspeicher,
+    description={Als Systemspeicher wird meist der integrierte Speicher eines Mobiltelefons, Computers, etc. bezeichnet.}
+}
+
+\newglossaryentry{sozials Netzwerk}
+{
+    name=soziales Netzwerk,
+    plural=soziale Netzwerke,
+    description={Dies ist ein Sammelbegriff für Plattformen, die es Nutzern ermöglichen Bilder, Texte oder andere Medien
+    mit jeder beliebigen anderen in Person in diesem Netzwerk zu teilen.}
+}
+
 \title{iMage App: Lastenheft}
 \author{Dominic Zahn}
 
@@ -37,20 +51,44 @@
 \maketitle
 
 \section{Zielbestimmung}
-
 Die \gls{App} iMage dient der Erstellung von \gls{HDR-Bild}. Sie soll dem Benutzer eine einfache und
-schnelle Möglichkeit bieten ein eigenes Bild in ein \gls{HDR-Bild} zu transformieren.
+schnelle Möglichkeit bieten eigene Bilder in ein \gls{HDR-Bild} zu transformieren.
 
 \section{Produkteinsatz}
-
 Das Produkt dient dazu Bilder, welche nicht im HDR-Format aufgenommen wurden, in dieses zu überführen.
 
-Zielgruppe: Personen, die keine HDR-Kamera besitzen
+Zielgruppe: Besitzer eines Mobiltelefons ohne HDR-Kamera
 
 Plattform: Android 6 oder Nachfolger, ios 8 oder Nachfolger
 
+\section{Funktionale Anforderungen}
+\begin{itemize}[nosep]
 
+\item[FA10] Bei Abonnement eines Kunden für den Zeitraum des Abos keine Kaufoptionen anzeigen.
+\item[FA20] Die Startseite der Applikation soll eine Übersicht über das Nutzerkonto und die zuletzt erstellten HDRBilder
+bereitstellen.
+\item[FA30] Anzeigen der Bilder im \gls{Systemspeicher}.
+\item[FA40] Der Nutzer kann aus drei Bildern ein \gls{HDR-Bild} erstellen.
+\item[FA50] Nach der Umwandlung soll es möglich sein das Ergebinsbild über \glspl{sozials Netzwerk} wie Facezine oder Instagrim
+zu teilen.
 
+\end{itemize}
+
+\section{Produktdaten}
+\begin{itemize}[nosep]
+\item[PD10] HDR-Bilder nach Umwandlung im Speicher des Mobiltelefons ablegen.
+\item[PD20] Speicherung der Bilder auf dem Pear-Corp-Zentralserver.
+\item[PD30] Speicherung der Benutzerdaten auf dem Pear-Corp-Zentralserver.
+    
+\end{itemize}
+
+\section{Nichtfuntkionale Anforderungen}
+\begin{itemize}[nosep]
+\item[NF10] In der Vorschauansicht soll in Echtzeit bis zu einhundert (100)
+Bilder auf einem Mittelklasse-Smartphone anzeigen können.
+\item[NF20] Die Funktion /FA40/ darf nicht mehr als sieben Sekunden in Anspruch nehmen.
+    
+\end{itemize}
 \printnoidxglossaries
 
 \end{document}
