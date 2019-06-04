@@ -90,9 +90,9 @@ public class Menu extends JMenuBar {
     url = ClassLoader.getSystemResource("icons/help-browser.png");
     info.setIcon(new ImageIcon(url));
     
-    start_plug_in = new JMenuItem("Start Plug-in");
+    start_plug_in = new JMenuItem("Start Plug-In");
     
-    configure_plug_in = new JMenuItem("Configure Plug-in");
+    configure_plug_in = new JMenuItem("Configure Plug-In");
 
     update_check = new JMenuItem(m.mes.getString("Menu.15"));
     url = ClassLoader.getSystemResource("icons/system-software-update.png");
