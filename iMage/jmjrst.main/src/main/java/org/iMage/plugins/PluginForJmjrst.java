@@ -39,10 +39,18 @@ public abstract class PluginForJmjrst implements Comparable<PluginForJmjrst> {
    * Open a configuration dialogue.
    */
   public abstract void configure();
-
+  
+  /**
+   * The function returns a negative number if "this" should be behind "otherPlugin"
+   */
   @Override 
   public int compareTo(PluginForJmjrst otherPlugin) {
-    //TODO: implement me!
-    return 0;
+	  String name1 = this.getName();
+	  String name2 = otherPlugin.getName();
+	  int diffrence = name1.length() - name2.length();
+	  if (diffrence == 0) {
+		  diffrence = name1.compareTo(name2);
+	  }
+	  return diffrence;
   }
 }
