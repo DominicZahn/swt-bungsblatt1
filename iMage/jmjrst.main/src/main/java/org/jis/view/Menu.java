@@ -40,6 +40,8 @@ public class Menu extends JMenuBar {
   public JMenuItem          zippen;
   public JMenuItem          gallerie;
   public JMenuItem          exit;
+  public JMenuItem			start_plug_in;
+  public JMenuItem			configure_plug_in;
   public JMenuItem          set_quality;
   public JMenuItem          info;
   public JMenuItem          look_windows;
@@ -87,6 +89,10 @@ public class Menu extends JMenuBar {
     info = new JMenuItem(m.mes.getString("Menu.7"));
     url = ClassLoader.getSystemResource("icons/help-browser.png");
     info.setIcon(new ImageIcon(url));
+    
+    start_plug_in = new JMenuItem("Start Plug-in");
+    
+    configure_plug_in = new JMenuItem("Configure Plug-in");
 
     update_check = new JMenuItem(m.mes.getString("Menu.15"));
     url = ClassLoader.getSystemResource("icons/system-software-update.png");
@@ -110,6 +116,9 @@ public class Menu extends JMenuBar {
     datei.add(exit);
     option.add(optionen_look);
     option.add(set_quality);
+    option.addSeparator();
+    option.add(start_plug_in);
+    option.add(configure_plug_in);
     option.addSeparator();
     option.add(update_check);
     about.add(info);
