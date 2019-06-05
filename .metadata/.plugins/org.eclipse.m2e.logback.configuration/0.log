@@ -1860,3 +1860,111 @@ org.eclipse.core.runtime.CoreException: Variable references non-existent resourc
 2019-06-05 01:11:33,639 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2019-06-05 01:11:35,396 [Worker-50: Launching jmjrst.main (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Dokumente\Studienmaterial\SWT1\Workspace\iMage\jmjrst.main
 2019-06-05 01:11:35,396 [Worker-50: Launching jmjrst.main (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B package
+2019-06-05 01:15:14,475 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-05 01:15:14,477 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 19 resources
+2019-06-05 01:15:14,480 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-05 01:15:14,481 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-05 01:22:28,812 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-05 01:22:28,814 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 19 resources
+2019-06-05 01:22:28,816 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-05 01:22:28,816 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-05 01:22:53,621 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-05 01:22:53,625 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-05 01:22:53,627 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-05 01:22:53,628 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-05 01:22:57,223 [Worker-51: Launching jmjrst.main (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Dokumente\Studienmaterial\SWT1\Workspace\iMage\jmjrst.main
+2019-06-05 01:22:57,223 [Worker-51: Launching jmjrst.main (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B package
+2019-06-05 01:23:51,733 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-05 01:23:51,734 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-05 01:23:51,736 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-05 01:23:51,737 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-05 01:23:53,202 [Worker-52: Launching jmjrst.main (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Dokumente\Studienmaterial\SWT1\Workspace\iMage\jmjrst.main
+2019-06-05 01:23:53,202 [Worker-52: Launching jmjrst.main (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B package
+2019-06-05 01:26:47,625 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-05 01:26:47,626 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 19 resources
+2019-06-05 01:26:47,628 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-05 01:26:47,628 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-05 01:27:06,448 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-05 01:27:06,449 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 19 resources
+2019-06-05 01:27:06,451 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-05 01:27:06,451 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-05 01:27:27,008 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-05 01:27:27,009 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 19 resources
+2019-06-05 01:27:27,010 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-05 01:27:27,011 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-05 01:27:48,797 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-05 01:27:48,798 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 19 resources
+2019-06-05 01:27:48,800 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-05 01:27:48,801 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-05 01:27:51,977 [Worker-49: Launching jmjrst.main (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Dokumente\Studienmaterial\SWT1\Workspace\iMage\jmjrst.main
+2019-06-05 01:27:51,977 [Worker-49: Launching jmjrst.main (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B package
+2019-06-05 01:30:47,469 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-05 01:30:47,470 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 19 resources
+2019-06-05 01:30:47,473 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-05 01:30:47,473 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-05 01:30:49,557 [Worker-47: Launching jmjrst.main (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Dokumente\Studienmaterial\SWT1\Workspace\iMage\jmjrst.main
+2019-06-05 01:30:49,558 [Worker-47: Launching jmjrst.main (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B package
+2019-06-05 01:31:23,591 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-05 01:31:23,592 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 19 resources
+2019-06-05 01:31:23,595 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-05 01:31:23,596 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-05 01:31:24,640 [Worker-51: Launching jmjrst.main (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Dokumente\Studienmaterial\SWT1\Workspace\iMage\jmjrst.main
+2019-06-05 01:31:24,640 [Worker-51: Launching jmjrst.main (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B package
+2019-06-05 01:41:37,090 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-05 01:41:37,092 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 19 resources
+2019-06-05 01:41:37,096 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-05 01:41:37,096 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-05 01:41:42,063 [Worker-50: Launching jmjrst.main (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Dokumente\Studienmaterial\SWT1\Workspace\iMage\jmjrst.main
+2019-06-05 01:41:42,064 [Worker-50: Launching jmjrst.main (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B package
+2019-06-05 01:44:25,775 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-05 01:44:25,776 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 19 resources
+2019-06-05 01:44:25,778 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-05 01:44:25,778 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-05 01:47:00,743 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-05 01:47:00,744 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 19 resources
+2019-06-05 01:47:00,752 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-05 01:47:00,753 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-05 01:52:32,626 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-05 01:52:32,627 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 19 resources
+2019-06-05 01:52:32,629 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-05 01:52:32,629 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-05 01:52:33,641 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-05 01:52:33,642 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 19 resources
+2019-06-05 01:52:33,643 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-05 01:52:33,644 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-05 02:01:47,038 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-05 02:01:47,039 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 19 resources
+2019-06-05 02:01:47,043 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-05 02:01:47,043 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-05 02:11:21,240 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-05 02:11:21,241 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 19 resources
+2019-06-05 02:11:21,243 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-05 02:11:21,244 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-05 02:11:24,730 [Worker-63: Launching jmjrst.main (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Dokumente\Studienmaterial\SWT1\Workspace\iMage\jmjrst.main
+2019-06-05 02:11:24,730 [Worker-63: Launching jmjrst.main (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B package
+2019-06-05 02:14:53,382 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-05 02:14:53,383 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 19 resources
+2019-06-05 02:14:53,385 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-05 02:14:53,386 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-05 02:18:15,465 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-05 02:18:15,466 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 19 resources
+2019-06-05 02:18:15,468 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-05 02:18:15,468 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-05 02:19:46,198 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-05 02:19:46,198 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 19 resources
+2019-06-05 02:19:46,200 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-05 02:19:46,200 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-05 02:20:27,598 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-05 02:20:27,599 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 19 resources
+2019-06-05 02:20:27,601 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-05 02:20:27,601 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-05 02:20:35,532 [Worker-62: Launching jmjrst.main (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Dokumente\Studienmaterial\SWT1\Workspace\iMage\jmjrst.main
+2019-06-05 02:20:35,532 [Worker-62: Launching jmjrst.main (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B package
+2019-06-05 02:22:49,010 [Worker-63: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-05 02:22:49,010 [Worker-63: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 19 resources
+2019-06-05 02:22:49,012 [Worker-63: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-05 02:22:49,012 [Worker-63: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-05 02:23:21,526 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-05 02:23:21,527 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 19 resources
+2019-06-05 02:23:21,528 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-05 02:23:21,528 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
