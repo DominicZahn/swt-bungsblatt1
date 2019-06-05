@@ -144,14 +144,14 @@ public class Menu extends JMenuBar {
 		Iterable<PluginForJmjrst> iterator = PluginManagement.getPlugins();
 		for (PluginForJmjrst plugin : iterator) {
 			if (plugin.isConfigurable()) {
-
-				JMenuItem sPlugin = new JMenuItem(plugin.getName());
 				JMenuItem cPlugin = new JMenuItem(plugin.getName());
-				start_plug_in.add(sPlugin);
 				configure_plug_in.add(cPlugin);
-				sPlugin.addActionListener((event) -> plugin.run());
+
 				cPlugin.addActionListener((event) -> plugin.configure());
 			}
+			JMenuItem sPlugin = new JMenuItem(plugin.getName());
+			start_plug_in.add(sPlugin);
+			sPlugin.addActionListener((event) -> plugin.run());
 		}
 
 		UIManager.LookAndFeelInfo uii[] = UIManager.getInstalledLookAndFeels();
