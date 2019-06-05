@@ -1972,3 +1972,11 @@ org.eclipse.core.runtime.CoreException: Variable references non-existent resourc
 2019-06-05 02:28:32,874 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 19 resources
 2019-06-05 02:28:32,877 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-06-05 02:28:32,877 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-05 09:51:54,218 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-06-05 09:52:48,706 [Worker-18: Launching jmjrst.main (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Dokumente\Studienmaterial\SWT1\Workspace\iMage\jmjrst.main
+2019-06-05 09:52:48,708 [Worker-18: Launching jmjrst.main (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B package
+2019-06-05 09:55:38,423 [Worker-3: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: 2218968:jmjrst.main:0.0.1-SNAPSHOT @ D:\Dokumente\Studienmaterial\SWT1\Workspace\iMage\jmjrst.main\pom.xml.
+2019-06-05 09:55:39,058 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-05 09:55:39,067 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 19 resources
+2019-06-05 09:55:39,077 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-05 09:55:39,077 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
