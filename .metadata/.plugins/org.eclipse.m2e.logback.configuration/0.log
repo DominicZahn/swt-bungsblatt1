@@ -2833,3 +2833,44 @@ org.eclipse.core.runtime.CoreException: Variable references non-existent resourc
 2019-06-12 15:47:37,507 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-06-12 15:47:37,507 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2019-06-12 15:48:18,860 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-06-12 15:50:37,666 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-06-12 15:50:42,456 [Worker-1: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: swt1:iMage.Instagrim-plugin:0.0.1-SNAPSHOT @ D:\Dokumente\Studienmaterial\SWT1\Workspace\iMage\iMage.Instagrim-plugin\pom.xml.
+2019-06-12 15:50:42,644 [Worker-1: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://bob.ipd.kit.edu/nexus/repository/maven-public-all/org/kohsuke/metainf-services/metainf-services/1.8/metainf-services-1.8.pom
+2019-06-12 15:50:42,675 [Worker-1: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://bob.ipd.kit.edu/nexus/repository/maven-public-all/org/kohsuke/pom/20/pom-20.pom
+2019-06-12 15:50:42,675 [Worker-1: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmjrst.main: swt1:jmjrst.main:0.0.1-SNAPSHOT with classifier  to /jmjrst.main/target/classes
+2019-06-12 15:50:42,691 [Worker-1: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://bob.ipd.kit.edu/nexus/repository/maven-public-all/org/kohsuke/metainf-services/metainf-services/1.8/metainf-services-1.8.jar
+2019-06-12 15:50:42,706 [Worker-1: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://bob.ipd.kit.edu/nexus/repository/maven-public-all/org/kohsuke/metainf-services/metainf-services/1.8/metainf-services-1.8.jar
+2019-06-12 15:50:43,222 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-12 15:50:43,237 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-12 15:50:43,237 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-12 15:50:43,237 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-12 15:50:43,973 [Worker-3: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: swt1:iMage.Instagrim-plugin:0.0.1-SNAPSHOT @ D:\Dokumente\Studienmaterial\SWT1\Workspace\iMage\iMage.Instagrim-plugin\pom.xml.
+2019-06-12 15:50:43,973 [Worker-6: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: swt1:iMage.Instagrim-plugin:0.0.1-SNAPSHOT @ D:\Dokumente\Studienmaterial\SWT1\Workspace\iMage\iMage.Instagrim-plugin\pom.xml.
+2019-06-12 15:50:43,988 [Worker-6: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmjrst.main: swt1:jmjrst.main:0.0.1-SNAPSHOT with classifier  to /jmjrst.main/target/classes
+2019-06-12 15:50:43,988 [Worker-3: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmjrst.main: swt1:jmjrst.main:0.0.1-SNAPSHOT with classifier  to /jmjrst.main/target/classes
+2019-06-12 15:50:44,019 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmjrst.main: swt1:jmjrst.main:0.0.1-SNAPSHOT with classifier  to /jmjrst.main/target/classes
+2019-06-12 15:50:44,051 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://bob.ipd.kit.edu/nexus/repository/maven-public-all/org/kohsuke/metainf-services/metainf-services/1.8/metainf-services-1.8-sources.jar
+2019-06-12 15:50:44,066 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://bob.ipd.kit.edu/nexus/repository/maven-public-all/org/kohsuke/metainf-services/metainf-services/1.8/metainf-services-1.8-sources.jar
+2019-06-12 15:50:44,191 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.kohsuke.metainf-services:metainf-services:1.8
+2019-06-12 15:50:44,207 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-12 15:50:44,207 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-12 15:50:44,207 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-12 15:50:44,207 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-12 15:50:44,238 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmjrst.main: swt1:jmjrst.main:0.0.1-SNAPSHOT with classifier  to /jmjrst.main/target/classes
+2019-06-12 15:50:44,451 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-12 15:50:44,451 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-12 15:50:44,451 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-12 15:50:44,451 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-12 15:50:45,341 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmjrst.main: swt1:jmjrst.main:0.0.1-SNAPSHOT with classifier  to /jmjrst.main/target/classes
+2019-06-12 15:50:45,357 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.kohsuke.metainf-services:metainf-services:1.8
+2019-06-12 15:50:46,013 [Worker-6: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: swt1:iMage.Instagrim-plugin:0.0.1-SNAPSHOT @ D:\Dokumente\Studienmaterial\SWT1\Workspace\iMage\iMage.Instagrim-plugin\pom.xml.
+2019-06-12 15:50:46,028 [Worker-6: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmjrst.main: swt1:jmjrst.main:0.0.1-SNAPSHOT with classifier  to /jmjrst.main/target/classes
+2019-06-12 15:50:46,028 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-12 15:50:46,028 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-12 15:50:46,044 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-12 15:50:46,044 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-12 15:50:46,216 [Worker-10: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmjrst.main: swt1:jmjrst.main:0.0.1-SNAPSHOT with classifier  to /jmjrst.main/target/classes
+2019-06-12 15:50:46,216 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-12 15:50:46,216 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-12 15:50:46,216 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-12 15:50:46,216 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
