@@ -9,4 +9,11 @@
   <artifactId>iMage.iCatcher</artifactId>
   <name>iMage.iCatcher</name>
   <description>a GUI for HDrize</description>
+  <dependencies>
+  	<dependency>
+  		<groupId>swt1</groupId>
+  		<artifactId>iMage.HDrize</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
 </project>
