@@ -5,6 +5,7 @@
 <workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1557322851463_3" label="iMage" name="iMage">
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/iMage" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jmjrst.main" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/iMage.Instagrim-plugin" type="4"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1556708965718_2" label="Window Working Set" name="Aggregate for window 1556708965718"/>
 </workingSetManager>
