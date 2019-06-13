@@ -1,5 +1,8 @@
 package org.iMage.iCatcher;
 
-public class CalculatedCurveWindow {
+import javax.swing.JFrame;
 
+public class CalculatedCurveWindow extends JFrame {
+	public CalculatedCurveWindow() {
+	}
 }

@@ -1,5 +1,9 @@
 package org.iMage.iCatcher;
 
-public class ImageHDRWindow {
+import javax.swing.JFrame;
+
+public class ImageHDRWindow extends JFrame {
+	public ImageHDRWindow() {
+	}
 
 }
