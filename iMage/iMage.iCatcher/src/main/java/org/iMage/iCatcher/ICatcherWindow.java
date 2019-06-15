@@ -20,89 +20,126 @@ import javax.swing.JSlider;
 import javax.swing.JTextField;
 
 public class ICatcherWindow extends JFrame {
-	private GridBagLayout globalLayout = new GridBagLayout();
-	private JButton previewButton = new JButton();
-	private JButton showCurve = new JButton("SHOW CURVE");
-	private JButton saveCurve = new JButton("SAVE CURVE");
-	private JButton saveHDR = new JButton("SAVE HDR");
-	private JScrollBar scrollBar = new JScrollBar(JScrollBar.HORIZONTAL);
-	private Label sliderValue = new Label("Samples (500)");
-	private JComboBox dropDownCameraCurve = new JComboBox();
-	private JComboBox dropDownToneMapping = new JComboBox();
-	private JSlider slider = new JSlider();
-	private JTextField textFieldLambda = new JTextField();
-	private JButton loadDir = new JButton("LOAD DIR");
-	private JButton loadCurve = new JButton("LOAD CURVE");
-	private JButton runHDrize = new JButton("RUN HDRIZE");
-	
+	private final int LEFTSIDEX = 30;
+	private final int RIGHTSIDEX = 410;
+	//just so there is something
+	private Label originalSlideShow = new Label("original");
+	//
+	private JButton buttonPreview = new JButton("preview");
+	private JScrollBar scrollBarOriginal = new JScrollBar(JScrollBar.HORIZONTAL);
+	private JButton buttonShowCurve = new JButton("SHOW CURVE");
+	private JButton buttonSaveCurve = new JButton("SAVE CURVE");
+	private JButton buttonSaveHDR = new JButton("SAVE HDR");
+	private Label labelCameraCurve = new Label("Camera Curve");
+	private JComboBox comboBoxCameraCurve = new JComboBox();
+	private Label labelToneMapping = new Label("Tone Mapping");
+	private JComboBox comboBoxToneMapping = new JComboBox();
+	private Label labelSamplesValue = new Label("Samples(500)");
+	private JSlider sliderSamples = new JSlider();
+	private Label labelLambda = new Label("Lambda");
+	private JTextField textFieldLabmda = new JTextField("20.0");
+	private JButton buttonLoadDir = new JButton("LOAD DIR");
+	private JButton buttonLoadCurve = new JButton("LOAD CURVE");
+	private JButton buttonRunHDrize = new JButton("RUN HDrize");
+
 	public ICatcherWindow() {
 		super("iCatcher");
-		setLayout(globalLayout);
-		GridBagConstraints gbc = new GridBagConstraints();
+		setLayout(null);
 		
-		// original pictures
-		addGBC(new Label("original"), gbc, 0, 0);
-		// preview for the HDR-picture
-		addGBC(previewButton, gbc, 1, 0);
-		// scroll bar
-		addGBC(scrollBar, gbc, 0, 1);
-		// top buttons
-		JPanel topButtons = new JPanel(new FlowLayout());
-		topButtons.add(showCurve);
-		topButtons.add(saveCurve);
-		topButtons.add(saveHDR);
-		showCurve.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				// show curve
-			}
-		});
-		saveCurve.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				// save curve
-			}
-		});
-		saveHDR.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				// save HDR
-
-			}
-		});
-		addGBC(topButtons, gbc, 1, 1);
-		//Drop-Down title Camera Curve
-		addGBC(new Label("Camera Curve"), gbc, 0, 2);
-		//titles for slider and Lambda
-		JPanel titles = new JPanel(new FlowLayout());
-		titles.add(sliderValue);
-		titles.add(new Label("Lambda"));
-		addGBC(titles, gbc, 1, 2);
-		//Drop-Down Standard Curve
-		addGBC(dropDownCameraCurve, gbc, 0, 3);
-		//lambda text field and slider
-		JPanel sliderAndLambda = new JPanel(new FlowLayout());
-		sliderAndLambda.add(slider);
-		sliderAndLambda.add(textFieldLambda);
-		addGBC(sliderAndLambda, gbc, 1, 3);
-		//bottom buttons
-		JPanel bottomButtons = new JPanel();
-		bottomButtons.add(loadDir);
-		bottomButtons.add(loadCurve);
-		bottomButtons.add(runHDrize);
-		addGBC(bottomButtons, gbc, 1, 4);
-		//Drop-Down title Tone Mapping
-		addGBC(new Label("Tone Mapping"), gbc, 0, 4);
-		//Drop-Down Tone Mapping
-		addGBC(dropDownToneMapping, gbc, 0, 5);
-		}
-	
-	private void addGBC(Component component, GridBagConstraints gbc, int gridx, int gridy) {
-		gbc.gridx = gridx;
-		gbc.gridy = gridy;
-		add(component, gbc);
+		//original pictures
+		originalSlideShow.setLocation(LEFTSIDEX, 30);
+		originalSlideShow.setSize(350, 250);
+		add(originalSlideShow);
+		
+		//preview picture / button
+		buttonPreview.setLocation(RIGHTSIDEX, 30);
+		buttonPreview.setSize(350, 250);
+		add(buttonPreview);
+		
+		//slider for the original pictures
+		scrollBarOriginal.setMinimum(0);
+		scrollBarOriginal.setMaximum(1050);//3 *  width of the picture
+		scrollBarOriginal.setLocation(LEFTSIDEX, 290);
+		scrollBarOriginal.setSize(350, 20);
+		add(scrollBarOriginal);
+		
+		final int GAP = 5; //gap between the three following buttons
+		//button SHOW CURVE
+		buttonShowCurve.setLocation(RIGHTSIDEX, 290);
+		buttonShowCurve.setSize(120, 20);
+		add(buttonShowCurve);
+		
+		//button SAVE CURVE
+		buttonSaveCurve.setLocation(RIGHTSIDEX + 120 + GAP, 290);
+		buttonSaveCurve.setSize(120, 20);
+		add(buttonSaveCurve);
+		
+		//button SAVE HDR
+		buttonSaveHDR.setLocation(RIGHTSIDEX + (120 + GAP) * 2, 290);
+		buttonSaveHDR.setSize(100, 20);
+		add(buttonSaveHDR);
+		
+		//label drop-down Camera Curve
+		labelCameraCurve.setLocation(LEFTSIDEX, 330);
+		labelCameraCurve.setSize(350, 20);
+		add(labelCameraCurve);
+		
+		//drop-down Camera Curve
+		comboBoxCameraCurve.setLocation(LEFTSIDEX, 350);
+		comboBoxCameraCurve.setSize(350, 20);
+		add(comboBoxCameraCurve);
+		
+		//label drop-down Tone Mapping 
+		labelToneMapping.setLocation(LEFTSIDEX, 390);
+		labelToneMapping.setSize(350, 20);
+		add(labelToneMapping);
+		
+		//drop-down Tone Mapping
+		comboBoxToneMapping.setLocation(LEFTSIDEX, 410);
+		comboBoxToneMapping.setSize(350, 20);
+		add(comboBoxToneMapping);
+		
+		final int SLIDERWIDTH = 250;
+		//label which displays the current value of the slider
+		labelSamplesValue.setAlignment(Label.CENTER);
+		labelSamplesValue.setLocation(RIGHTSIDEX, 330);
+		labelSamplesValue.setSize(SLIDERWIDTH, 20);
+		add(labelSamplesValue);
+		
+		//samples slider
+		sliderSamples.setLocation(RIGHTSIDEX, 350);
+		sliderSamples.setSize(SLIDERWIDTH, 20);
+		sliderSamples.setMinimum(0);
+		sliderSamples.setMaximum(1000);
+		sliderSamples.setValue(500);
+		add(sliderSamples);
+		
+		final int POSXLAMBDA = RIGHTSIDEX + SLIDERWIDTH + 30;
+		final int WIDTHLAMBDA = 350 - (SLIDERWIDTH + 30);
+		//label lambda
+		labelLambda.setAlignment(Label.RIGHT);
+		labelLambda.setLocation(POSXLAMBDA, 330);
+		labelLambda.setSize(WIDTHLAMBDA, 20);
+		add(labelLambda);
+		
+		//text field lambda
+		textFieldLabmda.setLocation(POSXLAMBDA, 350);
+		textFieldLabmda.setSize(WIDTHLAMBDA, 20);
+		textFieldLabmda.setHorizontalAlignment(JTextField.RIGHT);
+		add(textFieldLabmda);
+		
+		//button LOAD DIR
+		buttonLoadDir.setLocation(RIGHTSIDEX, 410);
+		buttonLoadDir.setSize(100, 20);
+		add(buttonLoadDir);
+		//button LOAD CURVE
+		buttonLoadCurve.setLocation(RIGHTSIDEX + 105, 410);
+		buttonLoadCurve.setSize(120, 20);
+		add(buttonLoadCurve);
+		
+		//button RUN HDrize
+		buttonRunHDrize.setLocation(RIGHTSIDEX + 230, 410);
+		buttonRunHDrize.setSize(120, 20);
+		add(buttonRunHDrize);
 	}
 }
