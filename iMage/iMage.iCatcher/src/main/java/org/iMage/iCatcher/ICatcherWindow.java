@@ -1,8 +1,11 @@
 package org.iMage.iCatcher;
 
 import java.awt.GridLayout;
+import java.awt.GridBagLayout;
+import java.awt.Component;
 import java.awt.Dimension;
 import java.awt.FlowLayout;
+import java.awt.GridBagConstraints;
 import java.awt.Label;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -17,7 +20,7 @@ import javax.swing.JSlider;
 import javax.swing.JTextField;
 
 public class ICatcherWindow extends JFrame {
-	private GridLayout globalLayout = new GridLayout(6, 2);
+	private GridBagLayout globalLayout = new GridBagLayout();
 	private JButton previewButton = new JButton();
 	private JButton showCurve = new JButton("SHOW CURVE");
 	private JButton saveCurve = new JButton("SAVE CURVE");
@@ -35,12 +38,14 @@ public class ICatcherWindow extends JFrame {
 	public ICatcherWindow() {
 		super("iCatcher");
 		setLayout(globalLayout);
+		GridBagConstraints gbc = new GridBagConstraints();
+		
 		// original pictures
-		add(new Label("original"), 0);
+		addGBC(new Label("original"), gbc, 0, 0);
 		// preview for the HDR-picture
-		add(previewButton, 1);
+		addGBC(previewButton, gbc, 1, 0);
 		// scroll bar
-		add(scrollBar, 2);
+		addGBC(scrollBar, gbc, 0, 1);
 		// top buttons
 		JPanel topButtons = new JPanel(new FlowLayout());
 		topButtons.add(showCurve);
@@ -68,31 +73,36 @@ public class ICatcherWindow extends JFrame {
 
 			}
 		});
-		add(topButtons, 3);
-		//Drop-Down title Camera Curve 
-		add(new Label("Camera Curve"), 4);
+		addGBC(topButtons, gbc, 1, 1);
+		//Drop-Down title Camera Curve
+		addGBC(new Label("Camera Curve"), gbc, 0, 2);
 		//titles for slider and Lambda
 		JPanel titles = new JPanel(new FlowLayout());
 		titles.add(sliderValue);
 		titles.add(new Label("Lambda"));
-		add(titles, 5);
+		addGBC(titles, gbc, 1, 2);
 		//Drop-Down Standard Curve
-		add(dropDownCameraCurve, 6);
+		addGBC(dropDownCameraCurve, gbc, 0, 3);
 		//lambda text field and slider
 		JPanel sliderAndLambda = new JPanel(new FlowLayout());
 		sliderAndLambda.add(slider);
 		sliderAndLambda.add(textFieldLambda);
-		add(sliderAndLambda ,7);
+		addGBC(sliderAndLambda, gbc, 1, 3);
 		//bottom buttons
 		JPanel bottomButtons = new JPanel();
 		bottomButtons.add(loadDir);
 		bottomButtons.add(loadCurve);
 		bottomButtons.add(runHDrize);
-		add(bottomButtons);
+		addGBC(bottomButtons, gbc, 1, 4);
 		//Drop-Down title Tone Mapping
-		add(new Label("Tone Mapping"), 9);
+		addGBC(new Label("Tone Mapping"), gbc, 0, 4);
 		//Drop-Down Tone Mapping
-		add(dropDownToneMapping, 10);
-		
+		addGBC(dropDownToneMapping, gbc, 0, 5);
+		}
+	
+	private void addGBC(Component component, GridBagConstraints gbc, int gridx, int gridy) {
+		gbc.gridx = gridx;
+		gbc.gridy = gridy;
+		add(component, gbc);
 	}
 }
