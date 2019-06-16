@@ -10,6 +10,7 @@ import java.awt.GridBagConstraints;
 import java.awt.Label;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.image.BufferedImage;
 
 import javax.swing.JFrame;
 import javax.swing.JSlider;
@@ -21,6 +22,8 @@ import javax.swing.JSlider;
 import javax.swing.JTextField;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
+
+import org.iMage.HDrize.HDrize;
 
 public class ICatcherWindow extends JFrame {
 	private final int LEFTSIDEX = 30;
@@ -34,7 +37,7 @@ public class ICatcherWindow extends JFrame {
 	private JButton buttonSaveCurve = new JButton("SAVE CURVE");
 	private JButton buttonSaveHDR = new JButton("SAVE HDR");
 	private Label labelCameraCurve = new Label("Camera Curve");
-	private JComboBox comboBoxCameraCurve = new JComboBox();
+	private JComboBox<String> comboBoxCameraCurve = new JComboBox<String>();
 	private Label labelToneMapping = new Label("Tone Mapping");
 	private JComboBox comboBoxToneMapping = new JComboBox();
 	private Label labelSamplesValue = new Label("Samples(500)");
@@ -48,6 +51,8 @@ public class ICatcherWindow extends JFrame {
 	private final double LAMBDADEFAULT = 20;
 	private final int SAMPLESDEFAULT = 500;
 	// global variables
+	private BufferedImage previewPic;
+	private boolean standardCurve = true;
 	private double lambda = LAMBDADEFAULT;
 	private int samples = SAMPLESDEFAULT;
 
@@ -72,6 +77,7 @@ public class ICatcherWindow extends JFrame {
 		// button SAVE HDR
 
 		// drop-down Camera Curve
+		comboBoxCameraCurve.addActionListener(new standardCameraCurveListener());
 
 		// drop-down Tone Mapping
 
@@ -82,20 +88,30 @@ public class ICatcherWindow extends JFrame {
 		textFieldLabmda.addActionListener(new lambdaListener());
 
 		// button LOAD DIR
-		
+
 		// button LOAD CURVE
 
 		// button RUN HDrize
 
 	}
-	
+
+	class standardCameraCurveListener implements ActionListener {
+		public void actionPerformed(ActionEvent e) {
+			if (comboBoxCameraCurve.getSelectedItem().equals("Standard Curve")) {
+				standardCurve = true;
+			} else {
+				standardCurve = false;
+			}
+		}
+	}
+
 	class samplesListener implements ChangeListener {
 		public synchronized void stateChanged(ChangeEvent e) {
 			samples = sliderSamples.getValue();
 			labelSamplesValue.setText("Samples(" + samples + ")");
 		}
 	}
-	
+
 	class lambdaListener implements ActionListener {
 		public void actionPerformed(ActionEvent e) {
 			String input = textFieldLabmda.getText();
@@ -124,7 +140,7 @@ public class ICatcherWindow extends JFrame {
 
 		// scroll bar for the original pictures
 		scrollBarOriginal.setMinimum(0);
-		scrollBarOriginal.setMaximum(1050);// 3 * width of the picture
+		scrollBarOriginal.setMaximum(100);// 3 * width of the picture
 		scrollBarOriginal.setLocation(LEFTSIDEX, 290);
 		scrollBarOriginal.setSize(350, 20);
 		add(scrollBarOriginal);
@@ -153,6 +169,8 @@ public class ICatcherWindow extends JFrame {
 		// drop-down Camera Curve
 		comboBoxCameraCurve.setLocation(LEFTSIDEX, 350);
 		comboBoxCameraCurve.setSize(350, 20);
+		comboBoxCameraCurve.addItem("Standard Curve");
+		comboBoxCameraCurve.addItem("Calculated Curve");
 		add(comboBoxCameraCurve);
 
 		// label drop-down Tone Mapping
