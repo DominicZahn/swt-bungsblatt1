@@ -19,6 +19,8 @@ import javax.swing.JScrollBar;
 import javax.swing.JComboBox;
 import javax.swing.JSlider;
 import javax.swing.JTextField;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
 
 public class ICatcherWindow extends JFrame {
 	private final int LEFTSIDEX = 30;
@@ -43,9 +45,11 @@ public class ICatcherWindow extends JFrame {
 	private JButton buttonLoadCurve = new JButton("LOAD CURVE");
 	private JButton buttonRunHDrize = new JButton("RUN HDrize");
 
-	private final double LAMBDADEFAULT = 500;
+	private final double LAMBDADEFAULT = 20;
+	private final int SAMPLESDEFAULT = 500;
 	// global variables
 	private double lambda = LAMBDADEFAULT;
+	private int samples = SAMPLESDEFAULT;
 
 	public ICatcherWindow() {
 		super("iCatcher");
@@ -54,22 +58,55 @@ public class ICatcherWindow extends JFrame {
 	}
 
 	private void setActionListeners() {
-		//textFieldLambda
-		textFieldLabmda.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				String input = textFieldLabmda.getText();
-				try {
-					lambda = Double.parseDouble(input);
-					textFieldLabmda.setForeground(Color.BLACK);
-					textFieldLabmda.setText(Double.toString(lambda));
-				} catch (NumberFormatException ne) {
-					textFieldLabmda.setForeground(Color.RED);
-				}
-			}
-		});
-		
-		//
 
+		// original pictures
+
+		// preview picture / button
+
+		// scroll bar for the original pictures
+
+		// button SHOW CURVE
+
+		// button SAVE CURVE
+
+		// button SAVE HDR
+
+		// drop-down Camera Curve
+
+		// drop-down Tone Mapping
+
+		// samples slider
+		sliderSamples.addChangeListener(new samplesListener());
+
+		// textFieldLambda
+		textFieldLabmda.addActionListener(new lambdaListener());
+
+		// button LOAD DIR
+		
+		// button LOAD CURVE
+
+		// button RUN HDrize
+
+	}
+	
+	class samplesListener implements ChangeListener {
+		public synchronized void stateChanged(ChangeEvent e) {
+			samples = sliderSamples.getValue();
+			labelSamplesValue.setText("Samples(" + samples + ")");
+		}
+	}
+	
+	class lambdaListener implements ActionListener {
+		public void actionPerformed(ActionEvent e) {
+			String input = textFieldLabmda.getText();
+			try {
+				lambda = Double.parseDouble(input);
+				textFieldLabmda.setForeground(Color.BLACK);
+				textFieldLabmda.setText(Double.toString(lambda));
+			} catch (NumberFormatException ne) {
+				textFieldLabmda.setForeground(Color.RED);
+			}
+		}
 	}
 
 	private void setRawStructure() {
@@ -161,7 +198,7 @@ public class ICatcherWindow extends JFrame {
 		buttonLoadDir.setLocation(RIGHTSIDEX, 410);
 		buttonLoadDir.setSize(100, 20);
 		add(buttonLoadDir);
-		
+
 		// button LOAD CURVE
 		buttonLoadCurve.setLocation(RIGHTSIDEX + 105, 410);
 		buttonLoadCurve.setSize(120, 20);
