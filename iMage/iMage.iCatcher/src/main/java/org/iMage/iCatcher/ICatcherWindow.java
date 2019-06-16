@@ -24,10 +24,16 @@ import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
 import org.iMage.HDrize.HDrize;
+import org.iMage.HDrize.base.images.HDRImageIO;
+import org.iMage.HDrize.base.images.HDRImageIO.ToneMapping;
 
 public class ICatcherWindow extends JFrame {
+	static final long serialVersionUID = 7126097627133805714L;
 	private final int LEFTSIDEX = 30;
 	private final int RIGHTSIDEX = 410;
+	private final String SIMPLEMAP = "Simple Map";
+	private final String STANDARDGAMMA = "Standard Gamma";
+	private final String SRGBGAMMA = "SRGB Gamma";
 	// just so there is something
 	private Label originalSlideShow = new Label("original");
 	//
@@ -39,7 +45,7 @@ public class ICatcherWindow extends JFrame {
 	private Label labelCameraCurve = new Label("Camera Curve");
 	private JComboBox<String> comboBoxCameraCurve = new JComboBox<String>();
 	private Label labelToneMapping = new Label("Tone Mapping");
-	private JComboBox comboBoxToneMapping = new JComboBox();
+	private JComboBox<String> comboBoxToneMapping = new JComboBox<String>();
 	private Label labelSamplesValue = new Label("Samples(500)");
 	private JSlider sliderSamples = new JSlider();
 	private Label labelLambda = new Label("Lambda");
@@ -55,6 +61,7 @@ public class ICatcherWindow extends JFrame {
 	private boolean standardCurve = true;
 	private double lambda = LAMBDADEFAULT;
 	private int samples = SAMPLESDEFAULT;
+	private ToneMapping toneMappingMode = ToneMapping.SimpleMap;
 
 	public ICatcherWindow() {
 		super("iCatcher");
@@ -80,6 +87,7 @@ public class ICatcherWindow extends JFrame {
 		comboBoxCameraCurve.addActionListener(new standardCameraCurveListener());
 
 		// drop-down Tone Mapping
+		comboBoxToneMapping.addActionListener(new toneMappingListener());
 
 		// samples slider
 		sliderSamples.addChangeListener(new samplesListener());
@@ -101,6 +109,23 @@ public class ICatcherWindow extends JFrame {
 				standardCurve = true;
 			} else {
 				standardCurve = false;
+			}
+		}
+	}
+
+	class toneMappingListener implements ActionListener {
+		public void actionPerformed(ActionEvent e) {
+			String selected = comboBoxToneMapping.getSelectedItem().toString();
+			switch (selected) {
+			case SIMPLEMAP:
+				toneMappingMode = ToneMapping.SimpleMap;
+				break;
+			case STANDARDGAMMA:
+				toneMappingMode = ToneMapping.StandardGamma;
+				break;
+			case SRGBGAMMA:
+				toneMappingMode = ToneMapping.SRGBGamma;
+				break;
 			}
 		}
 	}
@@ -181,6 +206,9 @@ public class ICatcherWindow extends JFrame {
 		// drop-down Tone Mapping
 		comboBoxToneMapping.setLocation(LEFTSIDEX, 410);
 		comboBoxToneMapping.setSize(350, 20);
+		comboBoxToneMapping.addItem(SIMPLEMAP);
+		comboBoxToneMapping.addItem(STANDARDGAMMA);
+		comboBoxToneMapping.addItem(SRGBGAMMA);
 		add(comboBoxToneMapping);
 
 		final int SLIDERWIDTH = 250;
