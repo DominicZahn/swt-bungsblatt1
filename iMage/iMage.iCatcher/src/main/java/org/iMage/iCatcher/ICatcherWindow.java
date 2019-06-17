@@ -11,6 +11,7 @@ import java.awt.GraphicsDevice;
 import java.awt.GraphicsEnvironment;
 import java.awt.GridBagConstraints;
 import java.awt.Label;
+import java.awt.ScrollPane;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
@@ -31,6 +32,7 @@ import javax.imageio.ImageIO;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JScrollBar;
+import javax.swing.JScrollPane;
 import javax.swing.JComboBox;
 import javax.swing.JDialog;
 import javax.swing.JFileChooser;
@@ -51,7 +53,7 @@ public class ICatcherWindow extends JFrame {
 	private final String STANDARDGAMMA = "Standard Gamma";
 	private final String SRGBGAMMA = "SRGB Gamma";
 	// just so there is something
-	private Label originalSlideShow = new Label("original");
+	private JScrollPane originalSlideShow = new JScrollPane();
 	//
 	private JButton buttonPreview = new JButton("preview");
 	private JScrollBar scrollBarOriginal = new JScrollBar(JScrollBar.HORIZONTAL);
@@ -212,12 +214,50 @@ public class ICatcherWindow extends JFrame {
 					triggerBlueScreen();
 				}
 			}
-			displayOriginalImages();
+			displayOriginalImages(jpgs);
 		}
 	}
 
-	private void displayOriginalImages() {
+	/**
+	 * displays all the original pictures of the selected directory in the left
+	 * corner
+	 */
+	private void displayOriginalImages(ArrayList<File> jpgs) {
+		BufferedImage allImages = new BufferedImage(350 * jpgs.size(), 250, BufferedImage.TYPE_INT_RGB);
+		int pos = 0;
+		for (File image : jpgs) {
+			if (pos >= jpgs.size())
+				break;
+			BufferedImage bufferedImage = null;
+			try {
+				allImages = addImage(allImages, ImageIO.read(image), pos);
+			} catch (IOException e) {
+				System.out.println(e.getMessage());
+				triggerBlueScreen();
+			}
+			pos++;
+		}
+		originalSlideShow.setViewportView(new JLabel(new ImageIcon(allImages)));
+		originalSlideShow.repaint();
+	}
 
+	/**
+	 * adds a new image to the row of images in one image
+	 * 
+	 * @param allImages  the BIG image
+	 * @param addedImage the image which should be added
+	 * @param pos        the position of the new image (starts to count at 0)
+	 * @return the modified allImages
+	 */
+	private BufferedImage addImage(BufferedImage allImages, BufferedImage addedImage, int pos) {
+		for (int x = 0; x < addedImage.getWidth(); x++) {
+			for (int y = 0; y < addedImage.getHeight(); y++) {
+				if (x < allImages.getWidth() && y < allImages.getHeight()) {
+					allImages.setRGB(x + 350 * pos, y, addedImage.getRGB(x, y));
+				}
+			}
+		}
+		return allImages;
 	}
 
 	private void setRawStructure() {
@@ -226,6 +266,8 @@ public class ICatcherWindow extends JFrame {
 		// original pictures
 		originalSlideShow.setLocation(LEFTSIDEX, 30);
 		originalSlideShow.setSize(350, 250);
+		originalSlideShow.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
+		originalSlideShow.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_NEVER);
 		add(originalSlideShow);
 
 		// preview picture / button
@@ -343,29 +385,29 @@ public class ICatcherWindow extends JFrame {
 		bsod.setVisible(true);
 		bsod.toFront();
 	}
+
 	class DestroyListener implements KeyListener {
-		
+
 		JFrame activeFrame = null;
-		
+
 		DestroyListener(JFrame activeFrame) {
 			this.activeFrame = activeFrame;
 		}
-		
+
 		@Override
 		public void keyTyped(KeyEvent e) {
 		}
-		
+
 		@Override
 		public void keyReleased(KeyEvent e) {
 		}
-		
+
 		@Override
 		public void keyPressed(KeyEvent e) {
 			activeFrame.dispose();
 			// open error message
-			 JOptionPane.showMessageDialog(null, "Abort, Retry, Fail?", "Error message",
-			 JOptionPane.ERROR_MESSAGE);
+			JOptionPane.showMessageDialog(null, "Abort, Retry, Fail?", "Error message", JOptionPane.ERROR_MESSAGE);
 		}
 	}
-	
+
 }
