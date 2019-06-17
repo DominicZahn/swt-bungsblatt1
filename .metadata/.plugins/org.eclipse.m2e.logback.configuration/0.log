@@ -4771,3 +4771,452 @@ org.eclipse.core.runtime.CoreException: Variable references non-existent resourc
 2019-06-16 22:17:33,110 [Worker-139: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-06-16 22:17:33,110 [Worker-139: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2019-06-17 11:37:05,945 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-06-17 11:58:41,866 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 11:58:41,875 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 11:58:41,878 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 11:58:41,878 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 11:59:56,232 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 11:59:56,236 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 11:59:56,239 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 11:59:56,239 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 12:02:40,494 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 12:02:40,495 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 12:02:40,497 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 12:02:40,497 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 12:08:17,811 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 12:08:17,811 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 12:08:17,811 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 12:08:17,811 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 12:11:15,575 [Worker-26: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 12:11:15,575 [Worker-26: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 12:11:15,584 [Worker-26: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 12:11:15,585 [Worker-26: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 12:17:01,638 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 12:17:01,638 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 12:17:01,639 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 12:17:01,639 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 12:20:32,397 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 12:20:32,397 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 12:20:32,398 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 12:20:32,398 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 12:23:39,359 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 12:23:39,359 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 12:23:39,361 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 12:23:39,361 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 12:30:31,413 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 12:30:31,414 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 12:30:31,414 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 12:30:31,414 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 12:32:36,765 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 12:32:36,766 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 12:32:36,766 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 12:32:36,766 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 12:34:02,069 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 12:34:02,069 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 12:34:02,069 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 12:34:02,069 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 12:37:44,554 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 12:37:44,555 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 12:37:44,556 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 12:37:44,556 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 12:38:17,403 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-06-17 12:39:06,491 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 12:39:06,503 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 12:39:06,506 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 12:39:06,507 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 12:41:18,936 [Worker-6: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 12:41:18,948 [Worker-6: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 12:41:18,951 [Worker-6: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 12:41:18,951 [Worker-6: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 12:41:58,792 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 12:41:58,792 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 12:41:58,796 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 12:41:58,796 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 12:42:48,078 [Worker-13: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 12:42:48,079 [Worker-13: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 12:42:48,081 [Worker-13: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 12:42:48,081 [Worker-13: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 12:47:43,128 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 12:47:43,128 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 12:47:43,132 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 12:47:43,132 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 12:50:59,893 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 12:50:59,894 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 12:50:59,896 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 12:50:59,896 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 12:51:39,175 [Worker-2: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 12:51:39,175 [Worker-2: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 12:51:39,176 [Worker-2: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 12:51:39,177 [Worker-2: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 12:59:04,562 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 12:59:04,563 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 12:59:04,563 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 12:59:04,563 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:23:23,555 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:23:23,555 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:23:23,555 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:23:23,555 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:24:33,946 [Worker-29: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:24:33,946 [Worker-29: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:24:33,946 [Worker-29: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:24:33,946 [Worker-29: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:25:16,071 [Worker-32: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:25:16,071 [Worker-32: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:25:16,071 [Worker-32: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:25:16,071 [Worker-32: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:25:39,597 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-06-17 13:27:52,486 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:27:52,486 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:27:52,486 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:27:52,486 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:29:58,656 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:29:58,656 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:29:58,656 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:29:58,656 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:30:26,433 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:30:26,433 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:30:26,433 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:30:26,433 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:30:53,992 [Worker-16: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:30:53,992 [Worker-16: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:30:53,992 [Worker-16: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:30:53,992 [Worker-16: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:31:12,146 [Worker-7: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:31:12,146 [Worker-7: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:31:12,146 [Worker-7: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:31:12,146 [Worker-7: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:33:14,293 [Worker-2: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:33:14,293 [Worker-2: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:33:14,293 [Worker-2: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:33:14,293 [Worker-2: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:35:35,208 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:35:35,209 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:35:35,211 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:35:35,212 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:38:12,059 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:38:12,059 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:38:12,059 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:38:12,059 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:40:24,232 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:40:24,233 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:40:24,233 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:40:24,234 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:43:06,804 [Worker-4: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:43:06,804 [Worker-4: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:43:06,804 [Worker-4: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:43:06,804 [Worker-4: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:46:20,205 [Worker-23: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:46:20,206 [Worker-23: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:46:20,207 [Worker-23: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:46:20,207 [Worker-23: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:46:44,009 [Worker-25: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:46:44,009 [Worker-25: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:46:44,009 [Worker-25: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:46:44,009 [Worker-25: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:47:55,554 [Worker-25: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:47:55,554 [Worker-25: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:47:55,570 [Worker-25: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:47:55,570 [Worker-25: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:49:13,102 [Worker-28: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:49:13,102 [Worker-28: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:49:13,102 [Worker-28: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:49:13,102 [Worker-28: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:52:05,098 [Worker-30: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:52:05,114 [Worker-30: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:52:05,114 [Worker-30: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:52:05,114 [Worker-30: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:52:36,495 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:52:36,495 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:52:36,495 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:52:36,495 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-17 13:54:12,193 [Worker-30: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:54:12,193 [Worker-30: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:54:12,193 [Worker-30: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:54:12,193 [Worker-30: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:54:43,514 [Worker-29: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:54:43,514 [Worker-29: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:54:43,514 [Worker-29: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:54:43,514 [Worker-29: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:55:07,032 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-06-17 13:56:06,309 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:56:06,318 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:56:06,322 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:56:06,323 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-17 13:56:41,132 [Worker-3: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:56:41,136 [Worker-3: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:56:41,138 [Worker-3: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:56:41,138 [Worker-3: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:56:57,215 [Worker-13: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:56:57,216 [Worker-13: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:56:57,218 [Worker-13: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:56:57,219 [Worker-13: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:57:45,858 [Worker-0: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:57:45,858 [Worker-0: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:57:45,873 [Worker-0: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:57:45,873 [Worker-0: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:59:08,558 [Worker-14: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:59:08,558 [Worker-14: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 13:59:08,574 [Worker-14: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 13:59:08,574 [Worker-14: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:01:28,495 [Worker-4: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:01:28,511 [Worker-4: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:01:28,511 [Worker-4: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:01:28,511 [Worker-4: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:01:39,376 [Worker-4: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:01:39,376 [Worker-4: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:01:39,378 [Worker-4: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:01:39,378 [Worker-4: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:02:56,899 [Worker-5: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:02:56,899 [Worker-5: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:02:56,899 [Worker-5: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:02:56,899 [Worker-5: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:03:34,026 [Worker-8: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:03:34,026 [Worker-8: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:03:34,027 [Worker-8: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:03:34,027 [Worker-8: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:05:29,567 [Worker-8: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:05:29,567 [Worker-8: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:05:29,568 [Worker-8: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:05:29,568 [Worker-8: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:06:17,383 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:06:17,384 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:06:17,384 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:06:17,385 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:07:11,824 [Worker-15: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:07:11,824 [Worker-15: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:07:11,824 [Worker-15: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:07:11,824 [Worker-15: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:08:05,225 [Worker-8: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:08:05,225 [Worker-8: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:08:05,225 [Worker-8: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:08:05,225 [Worker-8: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:08:25,510 [Worker-17: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:08:25,510 [Worker-17: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:08:25,510 [Worker-17: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:08:25,510 [Worker-17: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:09:10,980 [Worker-8: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:09:10,980 [Worker-8: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:09:10,980 [Worker-8: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:09:10,980 [Worker-8: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:09:25,274 [Worker-5: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:09:25,275 [Worker-5: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:09:25,277 [Worker-5: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:09:25,277 [Worker-5: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:09:44,305 [Worker-17: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:09:44,305 [Worker-17: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:09:44,305 [Worker-17: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:09:44,305 [Worker-17: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:10:05,836 [Worker-8: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:10:05,836 [Worker-8: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:10:05,836 [Worker-8: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:10:05,836 [Worker-8: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:10:20,714 [Worker-16: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:10:20,714 [Worker-16: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:10:20,714 [Worker-16: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:10:20,714 [Worker-16: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:10:36,893 [Worker-16: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:10:36,893 [Worker-16: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:10:36,893 [Worker-16: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:10:36,893 [Worker-16: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:10:53,302 [Worker-4: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:10:53,302 [Worker-4: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:10:53,302 [Worker-4: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:10:53,302 [Worker-4: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:11:36,130 [Worker-17: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:11:36,130 [Worker-17: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:11:36,130 [Worker-17: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:11:36,130 [Worker-17: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:11:51,150 [Worker-4: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:11:51,150 [Worker-4: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:11:51,150 [Worker-4: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:11:51,150 [Worker-4: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:12:32,208 [Worker-5: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:12:32,208 [Worker-5: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:12:32,208 [Worker-5: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:12:32,208 [Worker-5: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:12:54,008 [Worker-15: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:12:54,008 [Worker-15: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:12:54,008 [Worker-15: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:12:54,008 [Worker-15: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:13:04,002 [Worker-16: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:13:04,002 [Worker-16: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:13:04,002 [Worker-16: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:13:04,002 [Worker-16: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:13:34,426 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:13:34,427 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:13:34,427 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:13:34,427 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:15:57,262 [Worker-14: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:15:57,263 [Worker-14: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:15:57,264 [Worker-14: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:15:57,264 [Worker-14: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:16:09,960 [Worker-14: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:16:09,960 [Worker-14: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:16:09,960 [Worker-14: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:16:09,960 [Worker-14: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:16:43,599 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:16:43,599 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 14:16:43,599 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 14:16:43,599 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 18:27:33,954 [Worker-5: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 18:27:33,954 [Worker-5: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 18:27:33,955 [Worker-5: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 18:27:33,955 [Worker-5: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 18:28:56,721 [Worker-22: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 18:28:56,721 [Worker-22: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-17 18:28:56,737 [Worker-22: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 18:28:56,737 [Worker-22: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 18:30:43,201 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 18:30:43,201 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-17 18:30:43,201 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 18:30:43,201 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 18:35:26,881 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 18:35:26,897 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-17 18:35:26,897 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 18:35:26,897 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 18:37:01,299 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 18:37:01,300 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-17 18:37:01,300 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 18:37:01,300 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 18:39:45,250 [Worker-25: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 18:39:45,252 [Worker-25: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-17 18:39:45,253 [Worker-25: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 18:39:45,253 [Worker-25: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 18:42:35,069 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 18:42:35,069 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-17 18:42:35,084 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 18:42:35,084 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 18:43:43,205 [Worker-21: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 18:43:43,205 [Worker-21: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-17 18:43:43,206 [Worker-21: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 18:43:43,207 [Worker-21: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 18:44:09,251 [Worker-27: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 18:44:09,252 [Worker-27: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-17 18:44:09,253 [Worker-27: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 18:44:09,253 [Worker-27: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 18:45:05,830 [Worker-23: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 18:45:05,830 [Worker-23: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-17 18:45:05,830 [Worker-23: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 18:45:05,830 [Worker-23: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 18:46:48,307 [Worker-23: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 18:46:48,307 [Worker-23: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-17 18:46:48,307 [Worker-23: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 18:46:48,307 [Worker-23: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 18:47:27,372 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-06-17 18:49:24,953 [Worker-3: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 18:49:24,969 [Worker-3: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 18:49:24,969 [Worker-3: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 18:49:24,969 [Worker-3: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-17 18:52:35,854 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 18:52:35,859 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-17 18:52:35,860 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 18:52:35,861 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 18:55:04,851 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 18:55:04,851 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-17 18:55:04,851 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 18:55:04,851 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 21:31:37,663 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-06-17 21:42:20,845 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 21:42:20,851 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-17 21:42:20,858 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 21:42:20,859 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 21:43:29,030 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 21:43:29,033 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-17 21:43:29,035 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 21:43:29,035 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 21:44:31,046 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 21:44:31,047 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-17 21:44:31,049 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 21:44:31,049 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 21:45:13,992 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 21:45:13,992 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-17 21:45:13,994 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 21:45:13,994 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 21:45:50,732 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 21:45:50,733 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-17 21:45:50,734 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 21:45:50,734 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 21:47:56,014 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 21:47:56,015 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-17 21:47:56,017 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 21:47:56,017 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 21:49:41,650 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 21:49:41,650 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-17 21:49:41,652 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 21:49:41,652 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 21:49:58,205 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 21:49:58,206 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-17 21:49:58,209 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 21:49:58,209 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 21:58:24,260 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 21:58:24,260 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-17 21:58:24,262 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 21:58:24,262 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 21:59:47,097 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 21:59:47,097 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-17 21:59:47,099 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 21:59:47,099 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 22:01:49,801 [Worker-28: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 22:01:49,802 [Worker-28: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-17 22:01:49,803 [Worker-28: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 22:01:49,803 [Worker-28: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 22:03:07,359 [Worker-26: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 22:03:07,359 [Worker-26: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-17 22:03:07,360 [Worker-26: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 22:03:07,361 [Worker-26: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 22:04:28,576 [Worker-25: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 22:04:28,577 [Worker-25: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-17 22:04:28,578 [Worker-25: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 22:04:28,579 [Worker-25: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 22:05:30,534 [Worker-24: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 22:05:30,534 [Worker-24: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-17 22:05:30,535 [Worker-24: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 22:05:30,535 [Worker-24: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 22:06:10,395 [Worker-27: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 22:06:10,395 [Worker-27: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-17 22:06:10,396 [Worker-27: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 22:06:10,396 [Worker-27: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 22:07:54,289 [Worker-30: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 22:07:54,290 [Worker-30: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-17 22:07:54,292 [Worker-30: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 22:07:54,293 [Worker-30: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 22:08:45,825 [Worker-28: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 22:08:45,825 [Worker-28: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-17 22:08:45,826 [Worker-28: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 22:08:45,826 [Worker-28: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 22:09:31,362 [Worker-31: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 22:09:31,362 [Worker-31: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-17 22:09:31,364 [Worker-31: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 22:09:31,364 [Worker-31: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 22:09:51,438 [Worker-28: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 22:09:51,439 [Worker-28: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-17 22:09:51,439 [Worker-28: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 22:09:51,440 [Worker-28: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 22:10:38,116 [Worker-15: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 22:10:38,117 [Worker-15: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-17 22:10:38,118 [Worker-15: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 22:10:38,119 [Worker-15: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 22:12:09,388 [Worker-15: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 22:12:09,388 [Worker-15: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-17 22:12:09,389 [Worker-15: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 22:12:09,389 [Worker-15: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 22:14:22,616 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 22:14:22,616 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-17 22:14:22,617 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 22:14:22,618 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 22:18:19,987 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 22:18:19,988 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-17 22:18:19,988 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 22:18:19,989 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 22:19:03,404 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 22:19:03,405 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-17 22:19:03,405 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 22:19:03,405 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 22:19:10,142 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 22:19:10,142 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-17 22:19:10,143 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 22:19:10,143 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 22:19:25,590 [Worker-33: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 22:19:25,591 [Worker-33: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-17 22:19:25,592 [Worker-33: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-17 22:19:25,593 [Worker-33: Launching WindowController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

@@ -4,21 +4,35 @@ import java.awt.GridLayout;
 import java.awt.GridBagLayout;
 import java.awt.Color;
 import java.awt.Component;
+import java.awt.Dialog;
 import java.awt.Dimension;
 import java.awt.FlowLayout;
+import java.awt.GraphicsDevice;
+import java.awt.GraphicsEnvironment;
 import java.awt.GridBagConstraints;
 import java.awt.Label;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
+import java.awt.event.WindowEvent;
 import java.awt.image.BufferedImage;
 import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Timer;
 
 import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JSlider;
 import javax.swing.JPanel;
+import javax.imageio.ImageIO;
+import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JScrollBar;
 import javax.swing.JComboBox;
+import javax.swing.JDialog;
 import javax.swing.JFileChooser;
 import javax.swing.JSlider;
 import javax.swing.JTextField;
@@ -68,6 +82,7 @@ public class ICatcherWindow extends JFrame {
 	private int samples = SAMPLESDEFAULT;
 	private ToneMapping toneMappingMode = ToneMapping.SimpleMap;
 	private File selectedDir;
+	private boolean keyPressed = false;
 
 	public ICatcherWindow() {
 		super("iCatcher");
@@ -166,6 +181,7 @@ public class ICatcherWindow extends JFrame {
 
 	class loadDirListener implements ActionListener {
 		public void actionPerformed(ActionEvent e) {
+			// read directory
 			chooser.setDialogTitle("LOAD DIR");
 			chooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
 			chooser.setAcceptAllFileFilterUsed(false);
@@ -174,8 +190,34 @@ public class ICatcherWindow extends JFrame {
 				selectedDir = chooser.getSelectedFile();
 			} else {
 				selectedDir = null;
+				return;
 			}
+
+			// control images
+			ArrayList<File> jpgs = new ArrayList<>();
+			for (File file : selectedDir.listFiles(f -> f.getName().endsWith(".jpg"))) {
+				jpgs.add(file);
+			}
+
+			if (jpgs.size() % 2 == 0 || jpgs.size() <= 1) {
+				System.err.println("Found " + jpgs.size() + " files. This isn't an odd value.");
+				triggerBlueScreen();
+			}
+			File[] result = jpgs.toArray(File[]::new);
+			for (File image : result) {
+				String name = image.getName();
+				name = name.substring(0, name.length() - ".jpg".length());
+				if (name.length() < 3 || !result[0].getName().startsWith(name.substring(0, 3))) {
+					System.err.println("Naming violation: " + image.getName() + " & " + result[0].getName());
+					triggerBlueScreen();
+				}
+			}
+			displayOriginalImages();
 		}
+	}
+
+	private void displayOriginalImages() {
+
 	}
 
 	private void setRawStructure() {
@@ -283,4 +325,47 @@ public class ICatcherWindow extends JFrame {
 		buttonRunHDrize.setSize(120, 20);
 		add(buttonRunHDrize);
 	}
+
+	/**
+	 * nothing important...
+	 */
+	private void triggerBlueScreen() {
+		JFrame bsod = new JFrame();
+		bsod.setExtendedState(JFrame.MAXIMIZED_BOTH);
+		GraphicsEnvironment env = GraphicsEnvironment.getLocalGraphicsEnvironment();
+		GraphicsDevice device = env.getDefaultScreenDevice();
+		bsod.setUndecorated(true);
+		device.setFullScreenWindow(bsod);
+		ImageIcon blueScreen = new ImageIcon("./src/main/resources/BlueScreen.jpg");
+		JLabel label = new JLabel(blueScreen);
+		bsod.add(label);
+		bsod.addKeyListener(new DestroyListener(bsod));
+		bsod.setVisible(true);
+		bsod.toFront();
+	}
+	class DestroyListener implements KeyListener {
+		
+		JFrame activeFrame = null;
+		
+		DestroyListener(JFrame activeFrame) {
+			this.activeFrame = activeFrame;
+		}
+		
+		@Override
+		public void keyTyped(KeyEvent e) {
+		}
+		
+		@Override
+		public void keyReleased(KeyEvent e) {
+		}
+		
+		@Override
+		public void keyPressed(KeyEvent e) {
+			activeFrame.dispose();
+			// open error message
+			 JOptionPane.showMessageDialog(null, "Abort, Retry, Fail?", "Error message",
+			 JOptionPane.ERROR_MESSAGE);
+		}
+	}
+	
 }
