@@ -56,6 +56,8 @@ public class ICatcherWindow extends JFrame {
 
 	private final double LAMBDADEFAULT = 20;
 	private final int SAMPLESDEFAULT = 500;
+	private final double LAMBDAMIN = 0;
+	private final double LAMBDAMAX = 100;
 	// global variables
 	private BufferedImage previewPic;
 	private boolean standardCurve = true;
@@ -140,11 +142,18 @@ public class ICatcherWindow extends JFrame {
 	class lambdaListener implements ActionListener {
 		public void actionPerformed(ActionEvent e) {
 			String input = textFieldLabmda.getText();
+			boolean parsingPosible = true;
+			double nLambda = -1;
 			try {
-				lambda = Double.parseDouble(input);
+				nLambda = Double.parseDouble(input);
+			} catch (NumberFormatException ne) {
+				parsingPosible = false;
+			}
+			if (parsingPosible && 0 < nLambda && nLambda <= 100) {
+				lambda = nLambda;
 				textFieldLabmda.setForeground(Color.BLACK);
 				textFieldLabmda.setText(Double.toString(lambda));
-			} catch (NumberFormatException ne) {
+			} else {
 				textFieldLabmda.setForeground(Color.RED);
 			}
 		}

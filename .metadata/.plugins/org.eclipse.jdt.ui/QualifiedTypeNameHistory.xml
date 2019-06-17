@@ -7,4 +7,25 @@
     <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="org.iMage.plugins.PluginForJmjrst"/>
     <fullyQualifiedTypeName name="javax.swing.JMenuItem"/>
+    <fullyQualifiedTypeName name="java.awt.FlowLayout"/>
+    <fullyQualifiedTypeName name="java.awt.Dimension"/>
+    <fullyQualifiedTypeName name="java.awt.GridBagLayout"/>
+    <fullyQualifiedTypeName name="java.awt.GridBagConstraints"/>
+    <fullyQualifiedTypeName name="java.awt.Component"/>
+    <fullyQualifiedTypeName name="javax.swing.JPanel"/>
+    <fullyQualifiedTypeName name="javax.swing.JScrollBar"/>
+    <fullyQualifiedTypeName name="javax.swing.JComboBox"/>
+    <fullyQualifiedTypeName name="javax.swing.JSlider"/>
+    <fullyQualifiedTypeName name="javax.swing.JButton"/>
+    <fullyQualifiedTypeName name="javax.swing.JTextField"/>
+    <fullyQualifiedTypeName name="java.awt.Color"/>
+    <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
+    <fullyQualifiedTypeName name="org.iMage.iCatcher.ICatcherWindow.lambdaListener"/>
+    <fullyQualifiedTypeName name="javax.swing.event.ChangeListener"/>
+    <fullyQualifiedTypeName name="javax.swing.event.ChangeEvent"/>
+    <fullyQualifiedTypeName name="org.iMage.HDrize.HDrize"/>
+    <fullyQualifiedTypeName name="java.awt.image.BufferedImage"/>
+    <fullyQualifiedTypeName name="org.iMage.HDrize.base.images.HDRImageIO"/>
+    <fullyQualifiedTypeName name="org.iMage.HDrize.base.images.HDRImageIO.ToneMapping"/>
+    <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
 </qualifiedTypeNameHistroy>
