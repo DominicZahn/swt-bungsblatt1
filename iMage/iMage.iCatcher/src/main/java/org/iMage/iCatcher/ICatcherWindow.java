@@ -11,6 +11,7 @@ import java.awt.Label;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.image.BufferedImage;
+import java.io.File;
 
 import javax.swing.JFrame;
 import javax.swing.JSlider;
@@ -18,6 +19,7 @@ import javax.swing.JPanel;
 import javax.swing.JButton;
 import javax.swing.JScrollBar;
 import javax.swing.JComboBox;
+import javax.swing.JFileChooser;
 import javax.swing.JSlider;
 import javax.swing.JTextField;
 import javax.swing.event.ChangeEvent;
@@ -53,6 +55,7 @@ public class ICatcherWindow extends JFrame {
 	private JButton buttonLoadDir = new JButton("LOAD DIR");
 	private JButton buttonLoadCurve = new JButton("LOAD CURVE");
 	private JButton buttonRunHDrize = new JButton("RUN HDrize");
+	private JFileChooser chooser = new JFileChooser(new java.io.File("."));
 
 	private final double LAMBDADEFAULT = 20;
 	private final int SAMPLESDEFAULT = 500;
@@ -64,6 +67,7 @@ public class ICatcherWindow extends JFrame {
 	private double lambda = LAMBDADEFAULT;
 	private int samples = SAMPLESDEFAULT;
 	private ToneMapping toneMappingMode = ToneMapping.SimpleMap;
+	private File selectedDir;
 
 	public ICatcherWindow() {
 		super("iCatcher");
@@ -98,6 +102,7 @@ public class ICatcherWindow extends JFrame {
 		textFieldLabmda.addActionListener(new lambdaListener());
 
 		// button LOAD DIR
+		buttonLoadDir.addActionListener(new loadDirListener());
 
 		// button LOAD CURVE
 
@@ -155,6 +160,20 @@ public class ICatcherWindow extends JFrame {
 				textFieldLabmda.setText(Double.toString(lambda));
 			} else {
 				textFieldLabmda.setForeground(Color.RED);
+			}
+		}
+	}
+
+	class loadDirListener implements ActionListener {
+		public void actionPerformed(ActionEvent e) {
+			chooser.setDialogTitle("LOAD DIR");
+			chooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
+			chooser.setAcceptAllFileFilterUsed(false);
+
+			if (chooser.showOpenDialog(null) == JFileChooser.APPROVE_OPTION) {
+				selectedDir = chooser.getSelectedFile();
+			} else {
+				selectedDir = null;
 			}
 		}
 	}
