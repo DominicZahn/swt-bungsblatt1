@@ -12,28 +12,41 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.awt.image.BufferedImage;
 import java.io.File;
+import java.io.FileFilter;
+import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.OutputStream;
 import java.util.ArrayList;
 
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
+import javax.swing.JProgressBar;
 import javax.swing.JSlider;
 import javax.imageio.ImageIO;
+import javax.swing.Action;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JScrollBar;
 import javax.swing.JScrollPane;
 import javax.swing.JComboBox;
+import javax.swing.JDialog;
 import javax.swing.JFileChooser;
 import javax.swing.JSlider;
 import javax.swing.JTextField;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
+import javax.swing.filechooser.FileNameExtensionFilter;
 
+import org.apache.commons.imaging.ImageReadException;
 import org.iMage.HDrize.HDrize;
+import org.iMage.HDrize.base.ICameraCurve;
+import org.iMage.HDrize.base.images.EnhancedImage;
 import org.iMage.HDrize.base.images.HDRImageIO;
 import org.iMage.HDrize.base.images.HDRImageIO.ToneMapping;
+import org.iMage.HDrize.base.matrix.IMatrixCalculator;
+import org.iMage.HDrize.matrix.Matrix;
+import org.iMage.HDrize.matrix.MatrixCalculator;
 
 public class ICatcherWindow extends JFrame {
 	static final long serialVersionUID = 7126097627133805714L;
@@ -44,7 +57,6 @@ public class ICatcherWindow extends JFrame {
 	private final String SRGBGAMMA = "SRGB Gamma";
 	private JScrollPane originalSlideShow = new JScrollPane();
 	private JButton buttonPreview = new JButton("preview");
-	private JScrollBar scrollBarOriginal = new JScrollBar(JScrollBar.HORIZONTAL);
 	private JButton buttonShowCurve = new JButton("SHOW CURVE");
 	private JButton buttonSaveCurve = new JButton("SAVE CURVE");
 	private JButton buttonSaveHDR = new JButton("SAVE HDR");
@@ -60,6 +72,7 @@ public class ICatcherWindow extends JFrame {
 	private JButton buttonLoadCurve = new JButton("LOAD CURVE");
 	private JButton buttonRunHDrize = new JButton("RUN HDrize");
 	private JFileChooser chooser = new JFileChooser(new java.io.File("."));
+	private JFileChooser chooserSave = new JFileChooser(new java.io.File("."));
 
 	private final double LAMBDADEFAULT = 20;
 	private final int SAMPLESDEFAULT = 500;
@@ -73,6 +86,9 @@ public class ICatcherWindow extends JFrame {
 	private ToneMapping toneMappingMode = ToneMapping.SimpleMap;
 	private File selectedDir;
 	private boolean keyPressed = false;
+	private BufferedImage[] bufferedArray;
+	private EnhancedImage[] enhancedImages;
+	private String prefix;
 
 	public ICatcherWindow() {
 		super("iCatcher");
@@ -82,17 +98,15 @@ public class ICatcherWindow extends JFrame {
 
 	private void setActionListeners() {
 
-		// original pictures
-
 		// preview picture / button
-
-		// scroll bar for the original pictures
+		buttonPreview.addActionListener(new previewButtonListener());
 
 		// button SHOW CURVE
 
 		// button SAVE CURVE
 
 		// button SAVE HDR
+		buttonSaveHDR.addActionListener(new saveHDRListener());
 
 		// drop-down Camera Curve
 		comboBoxCameraCurve.addActionListener(new standardCameraCurveListener());
@@ -112,7 +126,48 @@ public class ICatcherWindow extends JFrame {
 		// button LOAD CURVE
 
 		// button RUN HDrize
+		buttonRunHDrize.addActionListener(new runHDrizwListener());
 
+	}
+
+	class saveHDRListener implements ActionListener {
+		public void actionPerformed(ActionEvent e) {
+			if (previewPic == null) {
+				showErrorDialog("The HDR picture is not calculated yet.", "No HDR picture");
+				triggerBlueScreen();
+				return;
+			}
+			File selectedFile;
+			String absolutPath = "";
+			chooserSave.setDialogTitle("LOAD DIR");
+			chooserSave.setFileSelectionMode(JFileChooser.FILES_ONLY);
+			chooserSave.setAcceptAllFileFilterUsed(false);
+			chooserSave.setFileFilter(new FileNameExtensionFilter("PNG file", "png"));
+			if (chooserSave.showSaveDialog(null) == JFileChooser.APPROVE_OPTION) {
+				selectedFile = chooserSave.getSelectedFile();
+			} else {
+				selectedFile = null;
+				return;
+			}
+			try {
+				File file = new File(selectedFile.getAbsolutePath() + ".png");
+				ImageIO.write(previewPic, "png", file);
+			} catch (IOException io) {
+				System.out.println(io.getMessage());
+				triggerBlueScreen();
+			}
+		}
+	}
+
+	class previewButtonListener implements ActionListener {
+		public void actionPerformed(ActionEvent e) {
+			JFrame hdr = new ImageHDRWindow(previewPic, prefix);
+			hdr.setVisible(true);
+			hdr.setSize(previewPic.getWidth(), previewPic.getHeight());
+			hdr.setLocationRelativeTo(null);
+			hdr.setResizable(false);
+		    hdr.setExtendedState(JFrame.MAXIMIZED_BOTH);
+		}
 	}
 
 	class standardCameraCurveListener implements ActionListener {
@@ -202,8 +257,114 @@ public class ICatcherWindow extends JFrame {
 					triggerBlueScreen();
 				}
 			}
+			// creating prefix
+			String arr[] = new String[jpgs.size()];
+			int pos = 0;
+			for (File image : jpgs) {
+				arr[pos] = image.getName();
+				pos++;
+			}
+			prefix = commonPrefix(arr, arr.length);
 			displayOriginalImages(jpgs);
 		}
+	}
+
+	private String commonPrefix(String arr[], int n) {
+		int index = findMinLength(arr, n);
+		String prefix = ""; // Our resultant string
+
+		// We will do an in-place binary search on the
+		// first string of the array in the range 0 to
+		// index
+		int low = 0, high = index;
+		while (low <= high) {
+
+			// Same as (low + high)/2, but avoids
+			// overflow for large low and high
+			int mid = low + (high - low) / 2;
+
+			if (allContainsPrefix(arr, n, arr[0], low, mid)) {
+				// If all the strings in the input array
+				// contains this prefix then append this
+				// substring to our answer
+				prefix = prefix + arr[0].substring(low, mid + 1);
+
+				// And then go for the right part
+				low = mid + 1;
+			} else // Go for the left part
+			{
+				high = mid - 1;
+			}
+		}
+
+		return prefix;
+	}
+
+	private boolean allContainsPrefix(String arr[], int n, String str, int start, int end) {
+		for (int i = 0; i <= (n - 1); i++) {
+			String arr_i = arr[i];
+
+			for (int j = start; j <= end; j++)
+				if (arr_i.charAt(j) != str.charAt(j))
+					return false;
+		}
+		return true;
+	}
+
+	private int findMinLength(String arr[], int n) {
+		int min = Integer.MAX_VALUE;
+		for (int i = 0; i <= (n - 1); i++) {
+			if (arr[i].length() < min) {
+				min = arr[i].length();
+			}
+		}
+		return min;
+	}
+
+	class runHDrizwListener implements ActionListener {
+		public void actionPerformed(ActionEvent e) {
+			HDrize hdrize = new HDrize();
+			if (!checkArguments()) {
+				return;
+			}
+			if (enhancedImages == null) {
+				showErrorDialog("Please insert the original picutres before running HDrize.", "No originals");
+				triggerBlueScreen();
+				return;
+			}
+			if (standardCurve) {
+				// uses the standard curve
+				previewPic = hdrize.createRGB(enhancedImages, SAMPLESDEFAULT, LAMBDADEFAULT, new MatrixCalculator());
+			} else {
+				// uses the custom settings for the curve
+				previewPic = hdrize.createRGB(enhancedImages, SAMPLESDEFAULT, LAMBDADEFAULT, new MatrixCalculator(),
+						toneMappingMode);
+			}
+			Image resized = previewPic.getScaledInstance(350, 250, 1);
+			buttonPreview.setIcon(new ImageIcon(resized));
+			buttonPreview.repaint();
+		}
+
+	}
+
+	private void showErrorDialog(String message, String title) {
+		JOptionPane.showMessageDialog(null, message, title, JOptionPane.ERROR_MESSAGE);
+	}
+
+	private boolean checkArguments() {
+		if (bufferedArray == null) {
+			showErrorDialog("Please load a set of images.", "Original pictures Error");
+			return false;
+		}
+		if (lambda <= LAMBDAMIN || lambda > LAMBDAMAX) {
+			showErrorDialog("Don't know how you did it but you managed to input a wrong value!", "Lambda Error");
+			return false;
+		}
+		if (samples <= 0 || samples > 1000) {
+			showErrorDialog("Don't know how you did it but you managed to input a wrong value!", "Lambda Error");
+			return false;
+		}
+		return true;
 	}
 
 	/**
@@ -212,8 +373,10 @@ public class ICatcherWindow extends JFrame {
 	 */
 	private void displayOriginalImages(ArrayList<File> jpgs) {
 		int pos = 0;
-		// create allImages and an array of all BufferedImages
-		BufferedImage[] bufferedArray = new BufferedImage[jpgs.size()];
+		// create allImages and an array of all BufferedImages and an array of all
+		// EnhancedImages
+		bufferedArray = new BufferedImage[jpgs.size()];
+		enhancedImages = new EnhancedImage[jpgs.size()];
 		// calculate width and height
 		int allWidth = 0;
 		int allHeight = 0;
@@ -221,8 +384,13 @@ public class ICatcherWindow extends JFrame {
 			BufferedImage bufferedImage;
 			try {
 				bufferedImage = ImageIO.read(image);
+				enhancedImages[pos] = new EnhancedImage(new FileInputStream(image));
 			} catch (IOException e) {
 				System.out.println(e.getMessage());
+				triggerBlueScreen();
+				continue;
+			} catch (ImageReadException ire) {
+				System.out.println(ire.getMessage());
 				triggerBlueScreen();
 				continue;
 			}
@@ -270,15 +438,15 @@ public class ICatcherWindow extends JFrame {
 		}
 		return allImages;
 	}
-	
-    private static BufferedImage resize(BufferedImage img, int height, int width) {
-        Image tmp = img.getScaledInstance(width, height, Image.SCALE_SMOOTH);
-        BufferedImage resized = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
-        Graphics2D g2d = resized.createGraphics();
-        g2d.drawImage(tmp, 0, 0, null);
-        g2d.dispose();
-        return resized;
-    }
+
+	private static BufferedImage resize(BufferedImage img, int height, int width) {
+		Image tmp = img.getScaledInstance(width, height, Image.SCALE_SMOOTH);
+		BufferedImage resized = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
+		Graphics2D g2d = resized.createGraphics();
+		g2d.drawImage(tmp, 0, 0, null);
+		g2d.dispose();
+		return resized;
+	}
 
 	private void setRawStructure() {
 		setLayout(null);
@@ -294,13 +462,6 @@ public class ICatcherWindow extends JFrame {
 		buttonPreview.setLocation(RIGHTSIDEX, 30);
 		buttonPreview.setSize(350, 250);
 		add(buttonPreview);
-
-		// scroll bar for the original pictures
-		scrollBarOriginal.setMinimum(0);
-		scrollBarOriginal.setMaximum(100);// 3 * width of the picture
-		scrollBarOriginal.setLocation(LEFTSIDEX, 290);
-		scrollBarOriginal.setSize(350, 20);
-		add(scrollBarOriginal);
 
 		final int GAP = 5; // gap between the three following buttons
 		// button SHOW CURVE
@@ -353,7 +514,7 @@ public class ICatcherWindow extends JFrame {
 		// samples slider
 		sliderSamples.setLocation(RIGHTSIDEX, 350);
 		sliderSamples.setSize(SLIDERWIDTH, 20);
-		sliderSamples.setMinimum(0);
+		sliderSamples.setMinimum(1);
 		sliderSamples.setMaximum(1000);
 		sliderSamples.setValue(500);
 		add(sliderSamples);
