@@ -1,40 +1,30 @@
 package org.iMage.iCatcher;
 
-import java.awt.GridLayout;
-import java.awt.GridBagLayout;
+import java.awt.Image;
 import java.awt.Color;
-import java.awt.Component;
-import java.awt.Dialog;
-import java.awt.Dimension;
-import java.awt.FlowLayout;
+import java.awt.Graphics2D;
 import java.awt.GraphicsDevice;
 import java.awt.GraphicsEnvironment;
-import java.awt.GridBagConstraints;
 import java.awt.Label;
-import java.awt.ScrollPane;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
-import java.awt.event.WindowEvent;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Timer;
 
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JSlider;
-import javax.swing.JPanel;
 import javax.imageio.ImageIO;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JScrollBar;
 import javax.swing.JScrollPane;
 import javax.swing.JComboBox;
-import javax.swing.JDialog;
 import javax.swing.JFileChooser;
 import javax.swing.JSlider;
 import javax.swing.JTextField;
@@ -52,9 +42,7 @@ public class ICatcherWindow extends JFrame {
 	private final String SIMPLEMAP = "Simple Map";
 	private final String STANDARDGAMMA = "Standard Gamma";
 	private final String SRGBGAMMA = "SRGB Gamma";
-	// just so there is something
 	private JScrollPane originalSlideShow = new JScrollPane();
-	//
 	private JButton buttonPreview = new JButton("preview");
 	private JScrollBar scrollBarOriginal = new JScrollBar(JScrollBar.HORIZONTAL);
 	private JButton buttonShowCurve = new JButton("SHOW CURVE");
@@ -223,20 +211,43 @@ public class ICatcherWindow extends JFrame {
 	 * corner
 	 */
 	private void displayOriginalImages(ArrayList<File> jpgs) {
-		BufferedImage allImages = new BufferedImage(350 * jpgs.size(), 250, BufferedImage.TYPE_INT_RGB);
 		int pos = 0;
+		// create allImages and an array of all BufferedImages
+		BufferedImage[] bufferedArray = new BufferedImage[jpgs.size()];
+		// calculate width and height
+		int allWidth = 0;
+		int allHeight = 0;
 		for (File image : jpgs) {
-			if (pos >= jpgs.size())
-				break;
-			BufferedImage bufferedImage = null;
+			BufferedImage bufferedImage;
 			try {
-				allImages = addImage(allImages, ImageIO.read(image), pos);
+				bufferedImage = ImageIO.read(image);
+			} catch (IOException e) {
+				System.out.println(e.getMessage());
+				triggerBlueScreen();
+				continue;
+			}
+			// add to array
+			bufferedArray[pos] = bufferedImage;
+			// width
+			allWidth += bufferedImage.getWidth();
+			// height
+			if (allHeight < bufferedImage.getHeight()) {
+				allHeight = bufferedImage.getHeight();
+			}
+			pos++;
+		}
+		int currentYPos = 0;
+		BufferedImage allImages = new BufferedImage(allWidth, allHeight, BufferedImage.TYPE_INT_RGB);
+		for (File image : jpgs) {
+			try {
+				allImages = addImage(allImages, ImageIO.read(image), currentYPos);
+				currentYPos += ImageIO.read(image).getWidth();
 			} catch (IOException e) {
 				System.out.println(e.getMessage());
 				triggerBlueScreen();
 			}
-			pos++;
 		}
+		allImages = resize(allImages, 250, 350 * jpgs.size());
 		originalSlideShow.setViewportView(new JLabel(new ImageIcon(allImages)));
 		originalSlideShow.repaint();
 	}
@@ -246,19 +257,28 @@ public class ICatcherWindow extends JFrame {
 	 * 
 	 * @param allImages  the BIG image
 	 * @param addedImage the image which should be added
-	 * @param pos        the position of the new image (starts to count at 0)
+	 * @param startWidth the position were the new image starts
 	 * @return the modified allImages
 	 */
-	private BufferedImage addImage(BufferedImage allImages, BufferedImage addedImage, int pos) {
+	private BufferedImage addImage(BufferedImage allImages, BufferedImage addedImage, int startWidth) {
 		for (int x = 0; x < addedImage.getWidth(); x++) {
 			for (int y = 0; y < addedImage.getHeight(); y++) {
-				if (x < allImages.getWidth() && y < allImages.getHeight()) {
-					allImages.setRGB(x + 350 * pos, y, addedImage.getRGB(x, y));
+				if ((x + startWidth) < allImages.getWidth() && y < allImages.getHeight()) {
+					allImages.setRGB(x + startWidth, y, addedImage.getRGB(x, y));
 				}
 			}
 		}
 		return allImages;
 	}
+	
+    private static BufferedImage resize(BufferedImage img, int height, int width) {
+        Image tmp = img.getScaledInstance(width, height, Image.SCALE_SMOOTH);
+        BufferedImage resized = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
+        Graphics2D g2d = resized.createGraphics();
+        g2d.drawImage(tmp, 0, 0, null);
+        g2d.dispose();
+        return resized;
+    }
 
 	private void setRawStructure() {
 		setLayout(null);
