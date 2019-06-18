@@ -6,14 +6,38 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <groupId>swt1.ub4.a1</groupId>
-  <artifactId>iMage.iCatcher</artifactId>
   <name>iMage.iCatcher</name>
   <description>a GUI for HDrize</description>
   <dependencies>
+  
   	<dependency>
   		<groupId>swt1</groupId>
   		<artifactId>iMage.HDrize</artifactId>
   		<version>0.0.1-SNAPSHOT</version>
   	</dependency>
   </dependencies>
+  
+  <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <addClasspath>true</addClasspath>
+                            <mainClass>org.iMage.iCatcher.WindowController</mainClass>
+                            <addDefaultImplementationEntries>
+                                true
+                            </addDefaultImplementationEntries>
+                            <addDefaultSpecificationEntries>
+                                true
+                            </addDefaultSpecificationEntries>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+  <artifactId>2218968</artifactId>
 </project>

@@ -14,6 +14,7 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FileFilter;
 import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.util.ArrayList;
@@ -39,6 +40,7 @@ import javax.swing.event.ChangeListener;
 import javax.swing.filechooser.FileNameExtensionFilter;
 
 import org.apache.commons.imaging.ImageReadException;
+import org.iMage.HDrize.CameraCurve;
 import org.iMage.HDrize.HDrize;
 import org.iMage.HDrize.base.ICameraCurve;
 import org.iMage.HDrize.base.images.EnhancedImage;
@@ -47,6 +49,7 @@ import org.iMage.HDrize.base.images.HDRImageIO.ToneMapping;
 import org.iMage.HDrize.base.matrix.IMatrixCalculator;
 import org.iMage.HDrize.matrix.Matrix;
 import org.iMage.HDrize.matrix.MatrixCalculator;
+import org.ojalgo.type.StandardType;
 
 public class ICatcherWindow extends JFrame {
 	static final long serialVersionUID = 7126097627133805714L;
@@ -55,6 +58,14 @@ public class ICatcherWindow extends JFrame {
 	private final String SIMPLEMAP = "Simple Map";
 	private final String STANDARDGAMMA = "Standard Gamma";
 	private final String SRGBGAMMA = "SRGB Gamma";
+	private final double LAMBDADEFAULT = 20;
+	private final int SAMPLESDEFAULT = 500;
+	private final double LAMBDAMIN = 0;
+	private final double LAMBDAMAX = 100;
+	private final String STANDARDCURVE ="standard curve";
+	private final String CALCULATEDCURVE = "calculated curve";
+	private final String LOADEDCURVE = "loaded curve";
+	
 	private JScrollPane originalSlideShow = new JScrollPane();
 	private JButton buttonPreview = new JButton("preview");
 	private JButton buttonShowCurve = new JButton("SHOW CURVE");
@@ -74,13 +85,8 @@ public class ICatcherWindow extends JFrame {
 	private JFileChooser chooser = new JFileChooser(new java.io.File("."));
 	private JFileChooser chooserSave = new JFileChooser(new java.io.File("."));
 
-	private final double LAMBDADEFAULT = 20;
-	private final int SAMPLESDEFAULT = 500;
-	private final double LAMBDAMIN = 0;
-	private final double LAMBDAMAX = 100;
 	// global variables
 	private BufferedImage previewPic;
-	private boolean standardCurve = true;
 	private double lambda = LAMBDADEFAULT;
 	private int samples = SAMPLESDEFAULT;
 	private ToneMapping toneMappingMode = ToneMapping.SimpleMap;
@@ -89,6 +95,7 @@ public class ICatcherWindow extends JFrame {
 	private BufferedImage[] bufferedArray;
 	private EnhancedImage[] enhancedImages;
 	private String prefix;
+	private String curveMode = STANDARDCURVE;
 
 	public ICatcherWindow() {
 		super("iCatcher");
@@ -104,6 +111,7 @@ public class ICatcherWindow extends JFrame {
 		// button SHOW CURVE
 
 		// button SAVE CURVE
+		buttonSaveCurve.addActionListener(new saveCurveListener());
 
 		// button SAVE HDR
 		buttonSaveHDR.addActionListener(new saveHDRListener());
@@ -158,6 +166,39 @@ public class ICatcherWindow extends JFrame {
 			}
 		}
 	}
+	
+	class saveCurveListener implements ActionListener {
+		public void actionPerformed(ActionEvent e) {
+			if (!curveMode.equals(CALCULATEDCURVE)) {
+				showErrorDialog("If you want to save your custom curve please select calculated curve in the drop down menu.", "wrong drop-down selection");
+				triggerBlueScreen();
+				return;
+			}
+			if (previewPic == null) {
+				showErrorDialog("You have to run HDrize before saveing the curve.", "HDrize was not used yet");
+			}
+			File selectedFile;
+			String absolutPath = "";
+			chooserSave.setDialogTitle("SAVE CURVE");
+			chooserSave.setFileSelectionMode(JFileChooser.FILES_ONLY);
+			chooserSave.setAcceptAllFileFilterUsed(false);
+			chooserSave.setFileFilter(new FileNameExtensionFilter("BIN file", "bin"));
+			if (chooserSave.showSaveDialog(null) == JFileChooser.APPROVE_OPTION) {
+				selectedFile = chooserSave.getSelectedFile();
+			} else {
+				selectedFile = null;
+				return;
+			}
+			CameraCurve cc = new CameraCurve(enhancedImages, samples, lambda, new MatrixCalculator());
+			try {
+				File file = new File(selectedFile.getAbsolutePath() + ".bin");
+				cc.save(new FileOutputStream(file));
+			} catch (IOException io) {
+				System.out.println(io.getMessage());
+				triggerBlueScreen();
+			}
+		}
+	}
 
 	class previewButtonListener implements ActionListener {
 		public void actionPerformed(ActionEvent e) {
@@ -172,11 +213,7 @@ public class ICatcherWindow extends JFrame {
 
 	class standardCameraCurveListener implements ActionListener {
 		public void actionPerformed(ActionEvent e) {
-			if (comboBoxCameraCurve.getSelectedItem().equals("Standard Curve")) {
-				standardCurve = true;
-			} else {
-				standardCurve = false;
-			}
+			curveMode = comboBoxCameraCurve.getSelectedItem().toString();
 		}
 	}
 
@@ -332,12 +369,13 @@ public class ICatcherWindow extends JFrame {
 				triggerBlueScreen();
 				return;
 			}
-			if (standardCurve) {
+			if (curveMode.equals(STANDARDCURVE)) {
 				// uses the standard curve
-				previewPic = hdrize.createRGB(enhancedImages, SAMPLESDEFAULT, LAMBDADEFAULT, new MatrixCalculator());
-			} else {
+				previewPic = hdrize.createRGB(enhancedImages, new CameraCurve(), toneMappingMode);
+			} 
+			if(curveMode.equals(CALCULATEDCURVE)) {
 				// uses the custom settings for the curve
-				previewPic = hdrize.createRGB(enhancedImages, SAMPLESDEFAULT, LAMBDADEFAULT, new MatrixCalculator(),
+				previewPic = hdrize.createRGB(enhancedImages, samples, lambda, new MatrixCalculator(),
 						toneMappingMode);
 			}
 			Image resized = previewPic.getScaledInstance(350, 250, 1);
@@ -487,8 +525,9 @@ public class ICatcherWindow extends JFrame {
 		// drop-down Camera Curve
 		comboBoxCameraCurve.setLocation(LEFTSIDEX, 350);
 		comboBoxCameraCurve.setSize(350, 20);
-		comboBoxCameraCurve.addItem("Standard Curve");
-		comboBoxCameraCurve.addItem("Calculated Curve");
+		comboBoxCameraCurve.addItem(STANDARDCURVE);
+		comboBoxCameraCurve.addItem(CALCULATEDCURVE);
+		comboBoxCameraCurve.addItem(LOADEDCURVE);
 		add(comboBoxCameraCurve);
 
 		// label drop-down Tone Mapping
