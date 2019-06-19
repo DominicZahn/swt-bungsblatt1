@@ -14,8 +14,11 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FileFilter;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.ArrayList;
 
@@ -24,6 +27,7 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JProgressBar;
 import javax.swing.JSlider;
+import javax.annotation.processing.FilerException;
 import javax.imageio.ImageIO;
 import javax.swing.Action;
 import javax.swing.ImageIcon;
@@ -132,6 +136,7 @@ public class ICatcherWindow extends JFrame {
 		buttonLoadDir.addActionListener(new loadDirListener());
 
 		// button LOAD CURVE
+		buttonLoadCurve.addActionListener(new loadCurveListener());
 
 		// button RUN HDrize
 		buttonRunHDrize.addActionListener(new runHDrizwListener());
@@ -214,6 +219,7 @@ public class ICatcherWindow extends JFrame {
 	class standardCameraCurveListener implements ActionListener {
 		public void actionPerformed(ActionEvent e) {
 			curveMode = comboBoxCameraCurve.getSelectedItem().toString();
+			readCurveFromFile();
 		}
 	}
 
@@ -304,6 +310,52 @@ public class ICatcherWindow extends JFrame {
 			prefix = commonPrefix(arr, arr.length);
 			displayOriginalImages(jpgs);
 		}
+	}
+	
+	class loadCurveListener implements ActionListener {
+		public void actionPerformed(ActionEvent e) {
+			readCurveFromFile();
+			comboBoxCameraCurve.setSelectedItem(LOADEDCURVE);
+			comboBoxCameraCurve.repaint();
+			curveMode = LOADEDCURVE;
+		}
+	}
+	
+	private void readCurveFromFile() {
+		File file;
+		JFileChooser curveChooser = new JFileChooser();
+		curveChooser.setDialogTitle("Select Curve");
+		curveChooser.setFileSelectionMode(JFileChooser.FILES_ONLY);
+		curveChooser.setAcceptAllFileFilterUsed(false);
+		curveChooser.addChoosableFileFilter(new FileNameExtensionFilter("bin file", "bin"));
+		if (chooser.showOpenDialog(null) == JFileChooser.APPROVE_OPTION) {
+			file = chooser.getSelectedFile();
+		} else {
+			file = null;
+			return;
+		}
+		CameraCurve cc;
+		try {
+			cc = new CameraCurve(new FileInputStream(file));	
+		} catch (FileNotFoundException e) {
+			System.out.println(e.getMessage());
+			showErrorDialog("The selected file is not there.", "File not found");
+			triggerBlueScreen();
+			return;
+		} catch (ClassNotFoundException e) {
+			System.out.println(e.getMessage());
+			showErrorDialog(e.getMessage(), "Class not found");
+			triggerBlueScreen();
+			return;
+		} catch (IOException e) {
+			System.out.println(e.getMessage());
+			showErrorDialog(e.getMessage(), "IOException");
+			triggerBlueScreen();
+			return;
+		}
+		//lambda = ...
+		//samples = ...
+		//toneMapping = ...
 	}
 
 	private String commonPrefix(String arr[], int n) {

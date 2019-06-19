@@ -5899,3 +5899,353 @@ org.eclipse.core.runtime.CoreException: Variable references non-existent resourc
 2019-06-18 22:40:43,769 [Worker-238: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2019-06-18 22:40:43,770 [Worker-238: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-06-18 22:40:43,770 [Worker-238: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-18 22:47:14,684 [Worker-246: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-18 22:47:14,685 [Worker-246: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-18 22:47:14,685 [Worker-246: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-18 22:47:14,685 [Worker-246: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-18 22:49:54,965 [Worker-239: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-18 22:49:54,965 [Worker-239: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-18 22:49:54,966 [Worker-239: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-18 22:49:54,966 [Worker-239: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-18 22:52:40,813 [Worker-246: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-18 22:52:40,813 [Worker-246: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-18 22:52:40,814 [Worker-246: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-18 22:52:40,814 [Worker-246: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-18 22:55:17,629 [Worker-246: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-18 22:55:17,629 [Worker-246: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-18 22:55:17,630 [Worker-246: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-18 22:55:17,630 [Worker-246: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-18 23:09:18,461 [Worker-250: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-18 23:09:18,462 [Worker-250: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-18 23:09:18,462 [Worker-250: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-18 23:09:18,462 [Worker-250: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-18 23:10:44,816 [Worker-254: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-18 23:10:44,816 [Worker-254: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-18 23:10:44,817 [Worker-254: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-18 23:10:44,817 [Worker-254: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-18 23:11:39,420 [Worker-252: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: swt1.ub4.a1:iMage.iCatcher:0.0.1-SNAPSHOT @ D:\Dokumente\Studienmaterial\SWT1\Workspace\iMage\iMage.iCatcher\pom.xml.
+2019-06-18 23:11:39,851 [Worker-252: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-18 23:11:39,852 [Worker-252: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-18 23:11:39,853 [Worker-252: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-18 23:11:39,853 [Worker-252: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-18 23:25:18,894 [Worker-260: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: swt1.ub4.a1:iMage.iCatcher:0.0.1-SNAPSHOT @ D:\Dokumente\Studienmaterial\SWT1\Workspace\iMage\iMage.iCatcher\pom.xml.
+2019-06-18 23:25:19,035 [Worker-260: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-18 23:25:19,036 [Worker-260: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-18 23:25:19,038 [Worker-260: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-18 23:25:19,038 [Worker-260: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-18 23:31:37,305 [Worker-263: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: swt1.ub4.a1:iMage.iCatcher:0.0.1-SNAPSHOT @ D:\Dokumente\Studienmaterial\SWT1\Workspace\iMage\iMage.iCatcher\pom.xml.
+2019-06-18 23:31:37,461 [Worker-263: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-18 23:31:37,462 [Worker-263: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-18 23:31:37,463 [Worker-263: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-18 23:31:37,464 [Worker-263: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-18 23:36:00,536 [Worker-270: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: swt1.ub4.a1:iMage.iCatcher:0.0.1-SNAPSHOT @ D:\Dokumente\Studienmaterial\SWT1\Workspace\iMage\iMage.iCatcher\pom.xml.
+2019-06-18 23:36:00,766 [Worker-270: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-18 23:36:00,767 [Worker-270: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-18 23:36:00,769 [Worker-270: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-18 23:36:00,769 [Worker-270: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-18 23:38:04,297 [Worker-272: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: swt1.ub4.a1:iMage.iCatcher:0.0.1-SNAPSHOT @ D:\Dokumente\Studienmaterial\SWT1\Workspace\iMage\iMage.iCatcher\pom.xml.
+2019-06-18 23:38:04,446 [Worker-272: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-18 23:38:04,448 [Worker-272: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-18 23:38:04,449 [Worker-272: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-18 23:38:04,449 [Worker-272: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-18 23:50:15,384 [Worker-276: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-18 23:50:15,385 [Worker-276: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-18 23:50:15,391 [Worker-276: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-18 23:50:15,391 [Worker-276: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-18 23:51:20,967 [Worker-276: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-18 23:51:20,967 [Worker-276: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-18 23:51:20,968 [Worker-276: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-18 23:51:20,968 [Worker-276: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-18 23:52:18,288 [Worker-275: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-18 23:52:18,288 [Worker-275: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-18 23:52:18,289 [Worker-275: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-18 23:52:18,289 [Worker-275: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-18 23:52:50,584 [Worker-268: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-18 23:52:50,584 [Worker-268: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-18 23:52:50,585 [Worker-268: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-18 23:52:50,585 [Worker-268: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-18 23:56:18,181 [Worker-268: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-18 23:56:18,182 [Worker-268: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-18 23:56:18,183 [Worker-268: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-18 23:56:18,183 [Worker-268: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-18 23:58:32,542 [main] ERROR o.e.m2e.actions.ExecutePomAction - Skipping launch configuration jmjrst.main
+org.eclipse.core.runtime.CoreException: Variable references non-existent resource : ${project_loc:2218968}
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.abort(ResourceResolver.java:115) ~[na:na]
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.resolveValue(ResourceResolver.java:61) ~[na:na]
+	at org.eclipse.core.internal.variables.DynamicVariable.getValue(DynamicVariable.java:59) ~[na:na]
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.resolve(StringSubstitutionEngine.java:272) ~[na:na]
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.substitute(StringSubstitutionEngine.java:195) ~[na:na]
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.performStringSubstitution(StringSubstitutionEngine.java:90) ~[na:na]
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:595) ~[na:na]
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:361) ~[na:na]
+	at org.eclipse.m2e.internal.launch.LaunchingUtils.substituteVar(LaunchingUtils.java:28) ~[na:na]
+	at org.eclipse.m2e.actions.ExecutePomAction.getLaunchConfiguration(ExecutePomAction.java:290) ~[na:na]
+	at org.eclipse.m2e.actions.ExecutePomAction.launch(ExecutePomAction.java:138) ~[na:na]
+	at org.eclipse.m2e.actions.ExecutePomAction.launch(ExecutePomAction.java:95) ~[na:na]
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:423) ~[na:na]
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launchShortcut(ContextRunner.java:263) ~[na:na]
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.showShortcutSelectionDialog(ContextRunner.java:374) ~[na:na]
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.selectAndLaunch(ContextRunner.java:192) ~[na:na]
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launch(ContextRunner.java:101) ~[na:na]
+	at org.eclipse.debug.ui.actions.AbstractLaunchToolbarAction.runInternal(AbstractLaunchToolbarAction.java:90) ~[na:na]
+	at org.eclipse.debug.ui.actions.AbstractLaunchHistoryAction.runWithEvent(AbstractLaunchHistoryAction.java:423) ~[na:na]
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:240) ~[na:na]
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:230) ~[na:na]
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:568) ~[org.eclipse.jface_3.15.100.v20190222-1334.jar:na]
+	at org.eclipse.jface.action.ActionContributionItem.lambda$5(ActionContributionItem.java:439) ~[org.eclipse.jface_3.15.100.v20190222-1334.jar:na]
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89) ~[org.eclipse.swt.win32.win32.x86_64_3.110.0.v20190305-0602.jar:na]
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131) ~[org.eclipse.swt.win32.win32.x86_64_3.110.0.v20190305-0602.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055) ~[org.eclipse.swt.win32.win32.x86_64_3.110.0.v20190305-0602.jar:na]
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944) ~[org.eclipse.swt.win32.win32.x86_64_3.110.0.v20190305-0602.jar:na]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547) ~[org.eclipse.swt.win32.win32.x86_64_3.110.0.v20190305-0602.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173) ~[na:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338) ~[na:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062) ~[na:na]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155) ~[na:na]
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644) ~[na:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338) ~[na:na]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566) ~[na:na]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150) ~[na:na]
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155) ~[na:na]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203) ~[org.eclipse.equinox.app_1.4.100.v20190215-2139.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137) ~[org.eclipse.osgi_3.13.300.v20190218-1622.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107) ~[org.eclipse.osgi_3.13.300.v20190218-1622.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400) ~[org.eclipse.osgi_3.13.300.v20190218-1622.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255) ~[org.eclipse.osgi_3.13.300.v20190218-1622.jar:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661) ~[org.eclipse.equinox.launcher_1.5.300.v20190213-1655.jar:na]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597) ~[org.eclipse.equinox.launcher_1.5.300.v20190213-1655.jar:na]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476) ~[org.eclipse.equinox.launcher_1.5.300.v20190213-1655.jar:na]
+2019-06-18 23:58:32,645 [main] ERROR o.e.m2e.actions.ExecutePomAction - Skipping launch configuration New_configuration
+org.eclipse.core.runtime.CoreException: Variable references non-existent resource : ${workspace_loc:/lez-test-dummy}
+	at org.eclipse.debug.internal.core.variables.WorkspaceResolver.resolveValue(WorkspaceResolver.java:69) ~[na:na]
+	at org.eclipse.core.internal.variables.DynamicVariable.getValue(DynamicVariable.java:59) ~[na:na]
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.resolve(StringSubstitutionEngine.java:272) ~[na:na]
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.substitute(StringSubstitutionEngine.java:195) ~[na:na]
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.performStringSubstitution(StringSubstitutionEngine.java:90) ~[na:na]
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:595) ~[na:na]
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:361) ~[na:na]
+	at org.eclipse.m2e.internal.launch.LaunchingUtils.substituteVar(LaunchingUtils.java:28) ~[na:na]
+	at org.eclipse.m2e.actions.ExecutePomAction.getLaunchConfiguration(ExecutePomAction.java:290) ~[na:na]
+	at org.eclipse.m2e.actions.ExecutePomAction.launch(ExecutePomAction.java:138) ~[na:na]
+	at org.eclipse.m2e.actions.ExecutePomAction.launch(ExecutePomAction.java:95) ~[na:na]
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:423) ~[na:na]
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launchShortcut(ContextRunner.java:263) ~[na:na]
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.showShortcutSelectionDialog(ContextRunner.java:374) ~[na:na]
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.selectAndLaunch(ContextRunner.java:192) ~[na:na]
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launch(ContextRunner.java:101) ~[na:na]
+	at org.eclipse.debug.ui.actions.AbstractLaunchToolbarAction.runInternal(AbstractLaunchToolbarAction.java:90) ~[na:na]
+	at org.eclipse.debug.ui.actions.AbstractLaunchHistoryAction.runWithEvent(AbstractLaunchHistoryAction.java:423) ~[na:na]
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:240) ~[na:na]
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:230) ~[na:na]
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:568) ~[org.eclipse.jface_3.15.100.v20190222-1334.jar:na]
+	at org.eclipse.jface.action.ActionContributionItem.lambda$5(ActionContributionItem.java:439) ~[org.eclipse.jface_3.15.100.v20190222-1334.jar:na]
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89) ~[org.eclipse.swt.win32.win32.x86_64_3.110.0.v20190305-0602.jar:na]
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131) ~[org.eclipse.swt.win32.win32.x86_64_3.110.0.v20190305-0602.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055) ~[org.eclipse.swt.win32.win32.x86_64_3.110.0.v20190305-0602.jar:na]
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944) ~[org.eclipse.swt.win32.win32.x86_64_3.110.0.v20190305-0602.jar:na]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547) ~[org.eclipse.swt.win32.win32.x86_64_3.110.0.v20190305-0602.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173) ~[na:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338) ~[na:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062) ~[na:na]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155) ~[na:na]
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644) ~[na:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338) ~[na:na]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566) ~[na:na]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150) ~[na:na]
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155) ~[na:na]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203) ~[org.eclipse.equinox.app_1.4.100.v20190215-2139.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137) ~[org.eclipse.osgi_3.13.300.v20190218-1622.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107) ~[org.eclipse.osgi_3.13.300.v20190218-1622.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400) ~[org.eclipse.osgi_3.13.300.v20190218-1622.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255) ~[org.eclipse.osgi_3.13.300.v20190218-1622.jar:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661) ~[org.eclipse.equinox.launcher_1.5.300.v20190213-1655.jar:na]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597) ~[org.eclipse.equinox.launcher_1.5.300.v20190213-1655.jar:na]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476) ~[org.eclipse.equinox.launcher_1.5.300.v20190213-1655.jar:na]
+2019-06-18 23:58:32,646 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2019-06-18 23:58:45,953 [Worker-279: Launching iMage.iCatcher] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Dokumente\Studienmaterial\SWT1\Workspace\iMage\iMage.iCatcher
+2019-06-18 23:58:45,953 [Worker-279: Launching iMage.iCatcher] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B package
+2019-06-19 00:01:11,108 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2019-06-19 00:01:16,447 [Worker-283: Launching iMage.iCatcher (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Dokumente\Studienmaterial\SWT1\Workspace\iMage\iMage.iCatcher
+2019-06-19 00:01:16,447 [Worker-283: Launching iMage.iCatcher (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B package
+2019-06-19 00:08:15,518 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2019-06-19 00:08:19,168 [Worker-287: Launching iMage.iCatcher (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Dokumente\Studienmaterial\SWT1\Workspace\iMage\iMage.iCatcher
+2019-06-19 00:08:19,168 [Worker-287: Launching iMage.iCatcher (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B package
+2019-06-19 00:10:06,556 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2019-06-19 00:10:09,625 [Worker-285: Launching iMage.iCatcher (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Dokumente\Studienmaterial\SWT1\Workspace\iMage\iMage.iCatcher
+2019-06-19 00:10:09,625 [Worker-285: Launching iMage.iCatcher (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B package
+2019-06-19 00:17:40,895 [Worker-294: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 00:17:40,895 [Worker-294: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-19 00:17:40,896 [Worker-294: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 00:17:40,896 [Worker-294: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-19 00:17:41,956 [Worker-290: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 00:17:41,957 [Worker-290: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-19 00:17:41,957 [Worker-290: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 00:17:41,957 [Worker-290: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-19 00:21:20,925 [Worker-297: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 00:21:20,925 [Worker-297: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-19 00:21:20,926 [Worker-297: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 00:21:20,926 [Worker-297: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-19 00:22:18,975 [Worker-290: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 00:22:18,975 [Worker-290: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-19 00:22:18,976 [Worker-290: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 00:22:18,976 [Worker-290: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-19 00:24:09,450 [Worker-298: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 00:24:09,451 [Worker-298: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-19 00:24:09,451 [Worker-298: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 00:24:09,451 [Worker-298: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-19 00:24:11,505 [Worker-296: Launching iMage.iCatcher (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Dokumente\Studienmaterial\SWT1\Workspace\iMage\iMage.iCatcher
+2019-06-19 00:24:11,505 [Worker-296: Launching iMage.iCatcher (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B package
+2019-06-19 00:28:53,262 [Worker-299: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: swt1.ub4.a1:iMage.iCatcher:0.0.1-SNAPSHOT @ D:\Dokumente\Studienmaterial\SWT1\Workspace\iMage\iMage.iCatcher\pom.xml.
+2019-06-19 00:28:53,451 [DefaultMetadataResolver-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://bob.ipd.kit.edu/nexus/repository/maven-public-all/swt1/2218968/0.0.1-SNAPSHOT/maven-metadata.xml
+2019-06-19 00:28:53,451 [DefaultMetadataResolver-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://bob.ipd.kit.edu/nexus/repository/maven-public-all/swt1/2218968/0.0.1-SNAPSHOT/maven-metadata.xml
+2019-06-19 00:28:53,478 [Worker-299: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://bob.ipd.kit.edu/nexus/repository/maven-public-all/swt1/2218968/0.0.1-SNAPSHOT/2218968-0.0.1-SNAPSHOT.pom
+2019-06-19 00:28:53,480 [Worker-299: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for swt1:2218968:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2019-06-19 00:28:53,503 [Worker-299: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://bob.ipd.kit.edu/nexus/repository/maven-public-all/swt1/2218968/0.0.1-SNAPSHOT/2218968-0.0.1-SNAPSHOT.jar
+2019-06-19 00:28:53,618 [Worker-299: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 00:28:53,619 [Worker-299: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-19 00:28:53,620 [Worker-299: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 00:28:53,620 [Worker-299: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-19 00:28:54,542 [Worker-300: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for swt1:2218968:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2019-06-19 00:28:54,571 [Worker-300: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://bob.ipd.kit.edu/nexus/repository/maven-public-all/swt1/2218968/0.0.1-SNAPSHOT/2218968-0.0.1-SNAPSHOT-sources.jar
+2019-06-19 00:28:54,580 [Worker-300: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for swt1:2218968:0.0.1-SNAPSHOT
+org.eclipse.core.runtime.CoreException: Could not resolve artifact swt1:2218968:jar:sources:0.0.1-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:254) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.300.v20190215-2048.jar:na]
+2019-06-19 00:29:07,288 [Worker-301: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: swt1.ub4.a1:iMage.iCatcher:0.0.1-SNAPSHOT @ D:\Dokumente\Studienmaterial\SWT1\Workspace\iMage\iMage.iCatcher\pom.xml.
+2019-06-19 00:29:07,402 [Worker-301: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 00:29:07,403 [Worker-301: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-19 00:29:07,404 [Worker-301: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 00:29:07,404 [Worker-301: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-19 00:29:08,673 [Worker-301: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 00:29:08,673 [Worker-301: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-19 00:29:08,679 [Worker-301: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 00:29:08,680 [Worker-301: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2019-06-19 00:29:39,315 [Worker-301: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: swt1.ub4.a1:2218968:0.0.1-SNAPSHOT @ D:\Dokumente\Studienmaterial\SWT1\Workspace\iMage\iMage.iCatcher\pom.xml.
+2019-06-19 00:29:39,610 [Worker-301: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 00:29:39,611 [Worker-301: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-19 00:29:39,612 [Worker-301: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 00:29:39,612 [Worker-301: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-19 00:29:50,458 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2019-06-19 00:29:56,380 [Worker-301: Launching iMage.iCatcher (4)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Dokumente\Studienmaterial\SWT1\Workspace\iMage\iMage.iCatcher
+2019-06-19 00:29:56,381 [Worker-301: Launching iMage.iCatcher (4)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B package
+2019-06-19 00:30:45,387 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2019-06-19 00:30:48,925 [Worker-303: Launching iMage.iCatcher (5)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Dokumente\Studienmaterial\SWT1\Workspace\iMage\iMage.iCatcher
+2019-06-19 00:30:48,925 [Worker-303: Launching iMage.iCatcher (5)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B package
+2019-06-19 00:33:43,931 [Worker-302: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: swt1.ub4.a1:2218968:0.0.1-SNAPSHOT @ D:\Dokumente\Studienmaterial\SWT1\Workspace\iMage\iMage.iCatcher\pom.xml.
+2019-06-19 00:33:44,088 [Worker-302: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 00:33:44,090 [Worker-302: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-19 00:33:44,091 [Worker-302: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 00:33:44,091 [Worker-302: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-19 00:34:02,825 [Worker-305: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmjrst.main: swt1:jmjrst.main:0.0.1-SNAPSHOT with classifier  to /jmjrst.main/target/classes
+2019-06-19 00:34:02,840 [Worker-305: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmjrst.main: swt1:jmjrst.main:0.0.1-SNAPSHOT with classifier  to /jmjrst.main/target/classes
+2019-06-19 00:39:26,494 [Worker-308: Launching iMage.iCatcher (5)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Dokumente\Studienmaterial\SWT1\Workspace\iMage\iMage.iCatcher
+2019-06-19 00:39:26,494 [Worker-308: Launching iMage.iCatcher (5)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B package
+2019-06-19 00:45:53,586 [Worker-311: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 00:45:53,586 [Worker-311: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-19 00:45:53,591 [Worker-311: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 00:45:53,592 [Worker-311: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-19 00:52:03,002 [Worker-305: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 00:52:03,002 [Worker-305: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-19 00:52:03,002 [Worker-305: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 00:52:03,002 [Worker-305: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-19 00:58:09,284 [Worker-321: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 00:58:09,285 [Worker-321: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-19 00:58:09,285 [Worker-321: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 00:58:09,286 [Worker-321: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-19 00:59:58,250 [Worker-319: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 00:59:58,251 [Worker-319: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-19 00:59:58,251 [Worker-319: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 00:59:58,251 [Worker-319: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-19 01:02:50,057 [Worker-321: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 01:02:50,057 [Worker-321: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-19 01:02:50,058 [Worker-321: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 01:02:50,058 [Worker-321: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-19 01:04:45,227 [Worker-319: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 01:04:45,227 [Worker-319: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-19 01:04:45,228 [Worker-319: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 01:04:45,228 [Worker-319: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-19 01:11:17,037 [Worker-324: Launching iMage.iCatcher (5)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Dokumente\Studienmaterial\SWT1\Workspace\iMage\iMage.iCatcher
+2019-06-19 01:11:17,037 [Worker-324: Launching iMage.iCatcher (5)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B package
+2019-06-19 01:11:17,170 [Worker-326: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 01:11:17,171 [Worker-326: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-19 01:11:17,172 [Worker-326: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 01:11:17,173 [Worker-326: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-19 01:11:34,845 [Worker-328: Launching iCatcher] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 01:11:34,845 [Worker-328: Launching iCatcher] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-19 01:11:34,846 [Worker-328: Launching iCatcher] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 01:11:34,846 [Worker-328: Launching iCatcher] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-19 01:13:44,703 [Worker-323: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 01:13:44,703 [Worker-323: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-19 01:13:44,703 [Worker-323: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 01:13:44,703 [Worker-323: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-19 01:13:53,394 [Worker-329: Launching iMage.iCatcher (5)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Dokumente\Studienmaterial\SWT1\Workspace\iMage\iMage.iCatcher
+2019-06-19 01:13:53,394 [Worker-329: Launching iMage.iCatcher (5)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B package
+2019-06-19 01:26:49,483 [Worker-334: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 01:26:49,483 [Worker-334: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-19 01:26:49,484 [Worker-334: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 01:26:49,484 [Worker-334: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-19 01:27:00,810 [Worker-331: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 01:27:00,811 [Worker-331: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-19 01:27:00,811 [Worker-331: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 01:27:00,811 [Worker-331: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-19 01:29:05,420 [Worker-334: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 01:29:05,420 [Worker-334: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-19 01:29:05,421 [Worker-334: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 01:29:05,421 [Worker-334: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-19 01:30:52,466 [Worker-334: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 01:30:52,467 [Worker-334: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-19 01:30:52,467 [Worker-334: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 01:30:52,467 [Worker-334: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-19 01:31:01,722 [Worker-337: Launching iMage.iCatcher (5)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Dokumente\Studienmaterial\SWT1\Workspace\iMage\iMage.iCatcher
+2019-06-19 01:31:01,723 [Worker-337: Launching iMage.iCatcher (5)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B package
+2019-06-19 01:49:04,373 [Worker-336: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 01:49:04,373 [Worker-336: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-19 01:49:04,374 [Worker-336: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 01:49:04,374 [Worker-336: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-19 01:49:37,470 [Worker-342: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 01:49:37,470 [Worker-342: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-19 01:49:37,471 [Worker-342: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 01:49:37,471 [Worker-342: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-19 01:50:28,545 [Worker-340: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 01:50:28,546 [Worker-340: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-19 01:50:28,546 [Worker-340: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 01:50:28,547 [Worker-340: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-19 01:52:15,611 [Worker-342: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 01:52:15,611 [Worker-342: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-19 01:52:15,612 [Worker-342: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 01:52:15,612 [Worker-342: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-19 01:54:48,889 [Worker-342: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 01:54:48,889 [Worker-342: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-19 01:54:48,890 [Worker-342: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 01:54:48,890 [Worker-342: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-19 01:55:22,549 [Worker-346: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 01:55:22,550 [Worker-346: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-19 01:55:22,550 [Worker-346: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-19 01:55:22,550 [Worker-346: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-19 07:58:50,117 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-06-19 07:58:50,695 [Worker-2: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmjrst.main: swt1:jmjrst.main:0.0.1-SNAPSHOT with classifier  to /jmjrst.main/target/classes
+2019-06-19 07:58:50,773 [Worker-2: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmjrst.main: swt1:jmjrst.main:0.0.1-SNAPSHOT with classifier  to /jmjrst.main/target/classes
